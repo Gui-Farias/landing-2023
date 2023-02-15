@@ -1,5 +1,6 @@
 <script>
-	import SectionText from "$lib/components/section-text/SectionText.svelte";
+	import Triangles from "$lib/atoms/triangles/triangles.svelte";
+import SectionText from "$lib/components/section-text/SectionText.svelte";
 
   import './style.scss';
 
@@ -21,5 +22,8 @@
   <div class="project__image">
     <img src={pc} alt="">
     <img src={mobile} alt="" class="project__image-mobile">
+  </div>
+  <div class="project__triangles">
+    <Triangles />
   </div>
 </div>

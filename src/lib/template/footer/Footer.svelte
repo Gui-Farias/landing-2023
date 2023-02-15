@@ -1,5 +1,6 @@
 <script>
   import Logo from "$lib/atoms/Logo/Logo.svelte";
+	import Triangles from "$lib/atoms/triangles/triangles.svelte";
 
   import iconMessage from '$lib/images/icon-message.png';
 
@@ -7,6 +8,10 @@
 </script>
 
 <footer class="footer">
+  <div class="footer__triangles">
+    <Triangles />
+  </div>
+  
   <Logo />
 
   <div class="footer__email">

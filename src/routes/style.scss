@@ -19,13 +19,16 @@
 
 .blue {
   color: var(--color-secondary);
+	text-shadow: 2px 2px var(--color-primary);
 }
 
 .white {
   color: var(--color-light);
+	text-shadow: 2px 2px var(--color-primary);
 }
 .orange {
   color: var(--color-primary);
+	text-shadow: 2px 2px var(--color-secondary);
 }
 
 input,

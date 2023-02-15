@@ -21,6 +21,22 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 200px;
+    position: relative;
+
+    &__text {
+      width: 40%;
+      margin-top: 30px;
+     }
+     
+     &__image {
+       margin: 0;
+     }
+ 
+     .project__triangles {
+       position: absolute;
+       bottom: 0;
+       left: 24vw;
+     }
   
     &-invert {
       flex-direction: row-reverse;
@@ -33,25 +49,10 @@
       .project__image {
         margin-inline: 0 10%;
       }
+
+      .project__triangles {
+          left: 36vw;
+      }
     }
-   
-    &__text {
-     width: 40%;
-     margin-top: 30px;
-    }
-    
-    &__image {
-      margin: 0;
-    }
-    //  margin-left: 10%;
-    //  width: 50%;
-    //  position: relative;
-   
-    //  &-mobile {
-    //    position: absolute;
-    //    bottom: -20%;
-    //    right: 0;
-    //  }
-    // }
   }
 }

@@ -5,11 +5,16 @@
   
   .container > .title {
     text-align: center;
+    text-shadow: 2px 2px var(--color-primary);
   }
 
   &__social {
     margin-top: 70px;
     text-align: center;
+  }
+
+  &__cloud {
+    display: none;
   }
 
   @media only screen and (min-width:1140px){
@@ -21,6 +26,17 @@
       
       > * {
         width: 50%;
+      }
+    }
+
+    &__cloud {
+      display: block;
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: -160px;
+        right: 13vw;
       }
     }
   }

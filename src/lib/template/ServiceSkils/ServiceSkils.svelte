@@ -14,7 +14,8 @@
   import iconPhp from '$lib/images/icon-lang/icon-php.png';
   import iconSql from '$lib/images/icon-lang/icon-sql.png';
   import iconFig from '$lib/images/icon-lang/icon-fig.png';
-
+  
+	import Triangles from "$lib/atoms/triangles/triangles.svelte";
 
   import './style.scss';
 
@@ -38,6 +39,9 @@
     <img src={iconSvelte} alt="">
     <img src={iconReact} alt="">
     <img src={iconJquery} alt="">
+  </div>
+  <div class="service-skil__tria">
+    <Triangles />
   </div>
   <div class="service-skil__text">
     <SectionText title={title} text={text} text2={text2} list={list}/>

@@ -3,12 +3,21 @@
   color: var(--color-light);
   text-align: center;
   padding-top: 64px;
+  position: relative;
+
+  &__triangles {
+    position: absolute;
+    right: 6vw;
+    top: -170px;
+    zoom: 1.6;
+  }
 
   &__email {
     font-family: 'Audiowide';
     font-size: 46px;
     margin: 100px auto 30px;
     position: relative;
+    text-shadow: 2px 2px var(--color-primary);
     width: fit-content;
 
     &::after {
@@ -49,6 +58,7 @@
   &__copy {
     font-size: 16px;
     padding: 60px;
+    text-shadow: 2px 2px var(--color-secondary);
     
     @media only screen and (max-width:1140px){
       padding-bottom: 0;

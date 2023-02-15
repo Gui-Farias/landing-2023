@@ -9,7 +9,8 @@
   }
 
   &__item {
-    color: #FF731D;
+    color:  var(--color-primary);
+    text-shadow: 2px 2px var(--color-secondary);
     cursor: pointer;
     font-size: 24px;
 

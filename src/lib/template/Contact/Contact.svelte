@@ -1,7 +1,8 @@
 <script>
-  import Form from '$lib/components/Form/Form.svelte';
+	import Cloud from '$lib/atoms/Cloud/Cloud.svelte';
+import Form from '$lib/components/Form/Form.svelte';
 import SectionText from '$lib/components/section-text/SectionText.svelte';
-	import SocialMenu from '$lib/components/social-menu/social-menu.svelte';
+import SocialMenu from '$lib/components/social-menu/social-menu.svelte';
 import './style.scss';
 
 
@@ -9,7 +10,11 @@ const title = 'Entre em contato'
 const text = `Tem uma empresa ou um negócio e pretende desenvolver um site ou aplicativo para alavancar ele, uma proposta de trabalho ou até mesmo sugestões, críticas, entre em contato por esse formulário, que ficarei grato em responder!`
 </script>
 
+<div class="contact__cloud">
+  <Cloud />
+</div>
 <div class="contact" id="contact">
+
   <div class="container">
     <h2 class="title title--h2">Contato</h2>
     <div class="contact__text">
