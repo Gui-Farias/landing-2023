@@ -1,0 +1,22 @@
+.nav-main {
+  display: none;
+
+  @media only screen and (min-width:1140px){
+    &__list {
+      display: flex;
+      gap: 24px;
+      font-family: 'Audiowide';
+      list-style: none;
+    }
+  
+    &__item {
+      color: #FF731D;
+      cursor: pointer;
+      font-size: 24px;
+  
+      &:hover {
+        color: #d75b0e;
+      }
+    }
+  }
+}

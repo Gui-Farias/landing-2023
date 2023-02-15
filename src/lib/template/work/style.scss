@@ -1,0 +1,24 @@
+.work {
+  > .title{
+    text-align: center;
+    position: relative;
+    margin-block: 100px 150px;    
+
+    &::after {
+      content: url(../../images//icon-medal.png);
+      position: absolute;
+      right: 150px;
+      top: -100px;
+    }
+    
+    @media only screen and (max-width:1140px){
+      margin-block: 110px 50px;
+
+      &::after {
+        zoom: 0.5;
+        right: -30px;
+        top: -210px;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.social-menu {
+  @media only screen and (max-width:768px) {
+    zoom: 0.7;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+}

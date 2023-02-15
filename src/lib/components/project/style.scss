@@ -1,0 +1,57 @@
+.project {
+  &__image {
+    position: relative;
+    margin-block: 50px 120px;
+
+    img:first-child {
+      width: 100%;
+      max-width: fit-content;
+    }
+  
+    &-mobile {
+      position: absolute;
+      bottom: -20%;
+      right: 0;
+      width: 30%;
+      max-width: fit-content;
+    }
+   }
+
+  @media only screen and (min-width: 1140px) {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+  
+    &-invert {
+      flex-direction: row-reverse;
+      padding-bottom: 250px;
+      
+      .project__text {
+        text-align: right;
+      }
+      
+      .project__image {
+        margin-inline: 0 10%;
+      }
+    }
+   
+    &__text {
+     width: 40%;
+     margin-top: 30px;
+    }
+    
+    &__image {
+      margin: 0;
+    }
+    //  margin-left: 10%;
+    //  width: 50%;
+    //  position: relative;
+   
+    //  &-mobile {
+    //    position: absolute;
+    //    bottom: -20%;
+    //    right: 0;
+    //  }
+    // }
+  }
+}

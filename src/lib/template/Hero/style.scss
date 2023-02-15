@@ -1,0 +1,30 @@
+.hero {
+  text-align: center;
+  margin-block: 17vh 25vh;
+  position: relative;
+
+  @media only screen and (min-width:1140px) {
+    margin-block: 27vh 35vh;
+
+  }
+
+  &::before {
+    content: url(../../images/icon-chip.svg);
+    display: block;
+    position: absolute;
+    left: -40px;
+    top: 20vh;
+    max-width: 270px;
+    width: 40%;
+  }
+
+  &::after {
+    content: url(../../images/icon-chip.svg);
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: 25vh;
+    max-width: 270px;
+    width: 40%;
+  }
+}

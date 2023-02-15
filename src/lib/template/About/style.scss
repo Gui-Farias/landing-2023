@@ -1,0 +1,23 @@
+.about {
+  width: 100%;
+  
+  @media only screen and (min-width: 1140px) {
+    display:  flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+    .bio {
+      box-sizing: border-box;    
+      margin-right: 15%;
+      width: 50%;
+    }
+    
+    &__photo {
+      position: relative;
+      display: block;
+      margin-right: -15%;
+      top: -70px;
+      width: 35%;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.section-text {
+  &--primary {
+    .title {
+      color: var(--color-primary);
+    }
+    .paragraphy {
+      color: var(--color-light);
+    }
+  }
+
+  &--secondary {
+    .title {
+      color: var(--color-secondary);
+    }
+    .paragraphy {
+      color: var(--color-black);
+    }
+  }
+
+  &__list {
+    text-align: left;
+    margin-block: 30px;
+
+    ::marker {
+      content: url(../../images/icon-right.svg);
+    }
+  }
+
+  &__item {
+    position: relative;
+
+    span {
+      position: absolute;
+      top: -5px;
+      left: 15px;
+    }
+  }
+  .btn {
+    margin-top: 38px;
+  }
+
+  @media only screen and (max-width: 1140px){
+    text-align: center;
+
+    .btn {
+      margin-top: 24px;
+    }
+  }
+}
