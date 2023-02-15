@@ -7,5 +7,10 @@
 
 
 <style>
+  @media only screen and (max-width:1140px) {
+    img {
+      display: none;
+    }
+  }
 
 </style>

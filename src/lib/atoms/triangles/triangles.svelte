@@ -7,6 +7,12 @@
 
 
 <style>
+@media only screen and (max-width:1140px) {
+  img {
+    display: none;
+  }
+}
+
 
 img {
   opacity: 0.8;

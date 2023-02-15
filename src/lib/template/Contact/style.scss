@@ -13,10 +13,6 @@
     text-align: center;
   }
 
-  &__cloud {
-    display: none;
-  }
-
   @media only screen and (min-width:1140px){
     clip-path: polygon(77.1% 22%, 88.7% 0%, 100% 0%, 100% 100%, 43.6% 100%, 0% 100%, 0% 0%, 58.9% 0%, 64.5% 13%);
     padding-block: 100px 60px;
