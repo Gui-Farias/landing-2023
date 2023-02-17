@@ -37,18 +37,18 @@
         transform: translateY(10px);
       }
       &:invalid {
-        border: 3px solid #f00;
+        border: 5px solid #f00;
       }
     }
     
 
     &:focus {
       border: 3px solid var(--color-secondary);
-      transform: translateY(-10px);
+      transform: translateY(-4px);
       scale: 1.01;
 
       + span {
-        transform: translateY(0);
+        transform: translateY(4px);
       }
     }
     

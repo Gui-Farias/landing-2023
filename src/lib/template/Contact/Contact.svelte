@@ -24,7 +24,7 @@ const text = `Tem uma empresa ou um negócio e pretende desenvolver um site ou a
         <Form />
       </div>
       <div class="contact__social">
-        <h3 class="title title--h3 blue">Encontre me online tambem!</h3>
+        <h3 class="title title--h3 blue">Encontre me online!</h3>
         <SocialMenu />
       </div>
     </div>
