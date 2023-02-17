@@ -17,7 +17,7 @@
     font-size: 46px;
     margin: 100px auto 30px;
     position: relative;
-    text-shadow: 2px 2px var(--color-primary);
+    text-shadow: 1.5px 1.5px var(--color-primary);
     width: fit-content;
 
     &::after {
@@ -58,7 +58,7 @@
   &__copy {
     font-size: 16px;
     padding: 60px;
-    text-shadow: 2px 2px var(--color-secondary);
+    text-shadow: 1.5px 1.5px var(--color-secondary);
     
     @media only screen and (max-width:1140px){
       padding-bottom: 0;

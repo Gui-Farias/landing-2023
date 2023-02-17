@@ -9,4 +9,10 @@
     box-shadow: 3px 3px 0 0 var(--color-primary);
     color: var(--color-light);
   }
+
+  &:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    scale: 1.05;
+  }
 }

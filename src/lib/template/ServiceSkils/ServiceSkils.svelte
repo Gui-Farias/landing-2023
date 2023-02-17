@@ -26,7 +26,7 @@
   ['Desenvolvimento de sites responsivo', 
   'Desenvolvimento de e-commerce.', 
   'Atualizações em site no ar.', 
-  'Melhoraria no SEO, performance e acessibilidade.', 
+  'Melhoraria SEO, performance e acessibilidade.', 
   'Gerenciamento de campanha Google ADS.', 
   'Criação de HTML para email marketing.', 
   'Criação e suporte a email com @empresa']

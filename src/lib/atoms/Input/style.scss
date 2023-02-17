@@ -7,9 +7,12 @@
   }
 
   &-span {
+    transition: all 250ms;
     position: absolute;
-    top: 26px;
+    top: 0;
     left: 26px;
+    transform: translateY(26px);
+
   }
 
   &-input {
@@ -19,13 +22,38 @@
     border-bottom-right-radius: 50px;
     box-sizing: border-box;
     box-shadow: 3px 3px var(--color-secondary);
+    font-family: inherit;
+    font-size: inherit;
     padding: 30px 10px 10px 26px;
     height: 100%;
     resize: none;
     width: 100%; 
 
+
+    &:valid:not(:focus),
+    &[type="email"]:not(:placeholder-shown):not(:focus) {
+      + span {
+        left: 30px;
+        transform: translateY(10px);
+      }
+      &:invalid {
+        border: 3px solid #f00;
+      }
+    }
+    
+
     &:focus {
       border: 3px solid var(--color-secondary);
+      transform: translateY(-10px);
+      scale: 1.01;
+
+      + span {
+        transform: translateY(0);
+      }
+    }
+    
+    &::placeholder {
+      color: transparent;
     }
   }
 }
