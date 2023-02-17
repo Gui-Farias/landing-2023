@@ -10,10 +10,10 @@
 	--color-text: var(--color-dark);
 	--font-primary: 'Audiowide';
 	--font-secondary: 'Poppins';
-	--breakpoint-desk: 1140px;
 	font-size: clamp(0.9375rem, 0.8125rem + 0.5vw, 1.1875rem);
 	font-family: var(--font-body);
 	color: var(--color-text);
+
 }
 
 
@@ -76,15 +76,18 @@ body {
 	radial-gradient(64px,#000000 99%, #0000 101%) calc(64px*.866) calc(64px/ 2) 
 	rgba(4, 11, 26, 0.99);
 background-size: calc(4*calc(64px*.866)) calc(6*64px);
+box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
 .container {
+	box-sizing: border-box;
   max-width:1140px;
   margin-inline: auto;
-
-	@media only screen and (max-width:1140px){
+	width: 94%;
+	
+	@media only screen and (max-width: 728px){
 		text-align: center;
 		width: 80%;
 	}
@@ -97,6 +100,11 @@ background-size: calc(4*calc(64px*.866)) calc(6*64px);
   &--h1 {
 		font-size: clamp(3rem, 1rem + 5vw, 6rem);
     line-height: 1;
+
+		::selection{
+			//    background-color: $colorPrimary;
+			//    color: $colorWhite;
+			}
   }
 
   &--h2 {

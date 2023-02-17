@@ -30,6 +30,10 @@
       margin-inline: auto;
       top: 25px;
       width: 2px;
+
+      @media only screen and (max-width:768px){
+        top: 55px;
+      }
     }
 
     &::before {
@@ -41,6 +45,10 @@
       margin-inline: auto;
       width: 300px;
       bottom: -162px;
+
+      @media only screen and (max-width:768px){
+        bottom: -126px;
+      }
     }
 
     .title {
@@ -60,7 +68,7 @@
     padding: 60px;
     text-shadow: 1.5px 1.5px var(--color-secondary);
     
-    @media only screen and (max-width:1140px){
+    @media only screen and (max-width:728px){
       padding-bottom: 0;
     }
   }

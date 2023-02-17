@@ -1,21 +1,24 @@
 .nav-main {
-  display: none;
 
-  @media only screen and (max-width:768px){
-    position: fixed;
-    bottom: 0;
-    padding-block: 20px;
-    background-color: var(--color-light);
-    width: 100%;
-    z-index: 10;
+  &__list {
+    display: flex;
+    gap: 24px;
+    font-family: 'Audiowide';
+    list-style: none;
+  }
 
-    &__list {
-      gap: 15px;
-      justify-content: center;
+  &__item {
+    color:  var(--color-primary);
+    text-shadow: 1.5px 1.5px var(--color-secondary);
+    cursor: pointer;
+    font-size: 24px;
+
+    &:hover {
+      color: #d75b0e;
     }
+  }
 
-    &__item {
-      font-size: 15px;
-    }
+  @media only screen and (max-width:728px){
+    display: none;
   }
 }

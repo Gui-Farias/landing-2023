@@ -7,7 +7,7 @@
 
 
 <style>
-@media only screen and (max-width:1140px) {
+@media only screen and (max-width:924px) {
   img {
     display: none;
   }

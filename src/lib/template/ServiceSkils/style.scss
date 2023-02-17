@@ -7,7 +7,7 @@
     display: none;
   }
 
-  @media only screen and (min-width: 1140px){
+  @media only screen and (min-width: 728px){
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(8, 140px);
@@ -15,25 +15,12 @@
     
 
     &__text {
-      grid-area: 3/3/6/6;
+      grid-area: 3/1/6/6;
       margin-top: -20px;
 
       .title {
         margin: 0;
       }
-    }
-
-    &__js {
-      background-color: var(--color-primary);
-      border-radius: 30px;
-      box-shadow: 3px 3px 0 0 var(--color-secondary);
-      grid-area: 3/1/8/2;
-
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding-block: 30px;
     }
 
     &__css {
@@ -50,18 +37,38 @@
       margin-block: -70px 60px;
     }
 
+    @media only screen and (min-width: 924px){
+      &__text {
+        grid-area: 3/3/6/6;
+      }
 
-    &__back {
-      background-color: var(--color-primary);
-      border-radius: 30px;
-      box-shadow: 3px 3px 0 0 var(--color-secondary);
-      grid-area: 8/5/9/8;
-      margin-block: -70px 60px;
+      &__js {
+        background-color: var(--color-primary);
+        border-radius: 30px;
+        box-shadow: 3px 3px 0 0 var(--color-secondary);
+        grid-area: 3/1/8/2;
+  
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-block: 30px;
+      }
+    }
 
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-      padding-block: 15px 0;
+    @media only screen and (min-width: 1220px){
+      &__back {
+        background-color: var(--color-primary);
+        border-radius: 30px;
+        box-shadow: 3px 3px 0 0 var(--color-secondary);
+        grid-area: 8/5/9/8;
+        margin-block: -70px 60px;
+  
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-block: 15px 0;
+      }
     }
   }
 

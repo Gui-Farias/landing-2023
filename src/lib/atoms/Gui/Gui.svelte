@@ -12,7 +12,7 @@
     width: 80%;
   }
   
-  @media only screen and (min-width:1140px){
+  @media only screen and (min-width:728px){
     .gui-photo {
       width: 100%;
     }
