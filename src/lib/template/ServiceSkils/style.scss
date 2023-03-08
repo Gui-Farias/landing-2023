@@ -39,7 +39,8 @@
 
     @media only screen and (min-width: 924px){
       &__text {
-        grid-area: 3/3/6/6;
+        grid-area: 3/2/6/6;
+        margin-left: 90px;
       }
 
       &__js {
@@ -54,9 +55,15 @@
         justify-content: space-between;
         padding-block: 30px;
       }
+      
     }
 
-    @media only screen and (min-width: 1220px){
+    @media only screen and (min-width: 1140px){
+      &__text {
+        grid-area: 3/3/6/6;
+        margin-left: 0;
+      }
+
       &__back {
         background-color: var(--color-primary);
         border-radius: 30px;
