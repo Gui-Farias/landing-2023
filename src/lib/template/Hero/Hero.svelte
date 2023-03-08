@@ -4,15 +4,15 @@
   import { onMount } from 'svelte';
 
 onMount(() => {
-  const canvas = document.getElementById('canvasTitle');
-  const ctx = canvas.getContext('2d');
-
-  canvas.width = canvas.offsetWidth;
-  canvas.height = canvas.offsetHeight;  
+  if (window.innerWidth > 728) {
+    const canvas = document.getElementById('canvasTitle');
+    const ctx = canvas.getContext('2d');
   
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;  
 
 
-  class Particle {
+    class Particle {
     constructor(effect, x, y, color) {
       this.effect = effect;
       this.x = Math.random() * this.effect.canvasWidth;
@@ -112,21 +112,21 @@ onMount(() => {
       })
     }
   }
+    
 
-  const effect = new Effect(ctx, canvas.width, canvas.height);
+    const effect = new Effect(ctx, canvas.width, canvas.height);
 
-  effect.drawTitle('Guilherme Farias');
-  effect.render();
-
-  function animate() {
-    ctx.clearRect(0, 0 , canvas.width, canvas.height);
+    effect.drawTitle('Guilherme Farias');
     effect.render();
-    requestAnimationFrame(animate);
+
+    function animate() {
+      ctx.clearRect(0, 0 , canvas.width, canvas.height);
+      effect.render();
+      requestAnimationFrame(animate);
+    }
+
+    animate();
   }
-
-  animate();
-
-  
 });
 
 
