@@ -3,9 +3,22 @@
   margin-block: 17vh 25vh;
   position: relative;
 
+  #canvasTitle {
+    width: 100%;
+    height: 150px;
+    display: none;
+  }
+
   @media only screen and (min-width:728px) {
     margin-block: 27vh 35vh;
 
+    .hero__title {
+      display: none;
+    }
+
+    #canvasTitle {
+      display: block;
+    }
   }
 
   &::before {
