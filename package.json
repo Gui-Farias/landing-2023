@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@emailjs/browser": "^3.10.0",
 		"sass": "^1.58.0"
 	}
 }
