@@ -28,7 +28,7 @@
   const linkLive = 'http://liveincentive.com.br';
 </script>
 
-<div class="work" id="work">
+<section class="work" id="work">
   <h2 class="title title--h2 white">Meus Trabalhos</h2>
 
   <Project title={titleDani} text={textDani} btn={btnDani} link={linkDani} pc={pcDani} mobile={mobileDani}/>
@@ -36,4 +36,4 @@
   <Project title={titleLive} text={textLive} btn={btnLive} link={linkLive} pc={pcLive} mobile={mobileLive}/>
 
 
-</div>
+</section>

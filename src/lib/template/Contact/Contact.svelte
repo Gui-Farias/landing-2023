@@ -13,8 +13,7 @@ const text = `Tem uma empresa ou um negócio e pretende desenvolver um site ou a
 <div class="contact__cloud">
   <Cloud />
 </div>
-<div class="contact" id="contact">
-
+<section class="contact" id="contact">
   <div class="container">
     <h2 class="title title--h2">Contato</h2>
     <div class="contact__text">
@@ -29,4 +28,4 @@ const text = `Tem uma empresa ou um negócio e pretende desenvolver um site ou a
       </div>
     </div>
   </div>
-</div>
+</section>

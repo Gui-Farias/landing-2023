@@ -134,9 +134,9 @@ onMount(() => {
 </script>
 
 
-<div class="hero">
+<section class="hero">
   <canvas id="canvasTitle" aria-label="Guilherme Farias"></canvas>
   <h1 class="title title--h1 orange hero__title">Guilherme Farias</h1>
 
   <h2 class="title title--h2 white">Desenvolvedor Web</h2>
-</div>
+</section>

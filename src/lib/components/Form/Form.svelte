@@ -9,22 +9,6 @@
 
  onMount(() => {
    
-   //   const submitButton = document.getElementById("btn-submit");
-   
-//   submitButton.addEventListener("click", (event) => {
-//     event.preventDefault();
-
-//     const name = document.getElementById("Nome:")?.value;
-//     const email = document.getElementById("Email:")?.value;
-//     const mesage = document.getElementById("Mensagem:")?.value;
-
-//     if (!name || !email || !mesage) {
-//       alert('Por favor preencha todo os campos do formulario!')
-//     } else {
-//       console.log('ok');
-//     }
-
-//   });
 })
 
 function sendEmail(e) {

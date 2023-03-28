@@ -116,3 +116,13 @@ box-sizing: border-box;
 		font-size: clamp(1.3rem, 0.5rem + 5vw, 1.8rem);
   }
 }
+
+
+section {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 0.5s;
+}

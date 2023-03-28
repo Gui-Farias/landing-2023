@@ -32,7 +32,7 @@
   'Criação e suporte a email com @empresa']
 </script>
 
-<div class="service-skil" id="services">
+<section class="service-skil" id="services">
   <div class="service-skil__js">
     <img src={iconHtml} alt="">
     <img src={iconJs} alt="">
@@ -59,4 +59,4 @@
     <img src={iconSql} alt="">
     <img src={iconFig} alt="">
   </div>
-</div>
+</section>

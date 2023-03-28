@@ -7,11 +7,11 @@
   
 </script>
 
-<div class="about" id="about">
+<section class="about" id="about">
   <div class="about__photo">
     <Gui />
   </div>
   
   <Bio />
   
-</div>
+</section>
