@@ -1,4 +1,6 @@
 <script>
+  import { t } from 'svelte-i18n';
+
   import Project from "$lib/components/project/Project.svelte";
 
   import pcDani from '$lib/images/proj/pc-dani.png';
@@ -29,7 +31,7 @@
 </script>
 
 <section class="work" id="work">
-  <h2 class="title title--h2 white">Meus Trabalhos</h2>
+  <h2 class="title title--h2 white">{$t('work.title')}</h2>
 
   <Project title={titleDani} text={textDani} btn={btnDani} link={linkDani} pc={pcDani} mobile={mobileDani}/>
   <Project title={titleCord} text={textCord} btn={btnCord} link={linkCord} pc={pcCord} mobile={mobileCord} invert/>

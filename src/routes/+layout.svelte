@@ -29,19 +29,34 @@
   };
   
   
-  onMount(() => {
-   // Create a new IntersectionObserver instance
-   observer = new IntersectionObserver(callback, options);
+onMount(() => {
+ // Create a new IntersectionObserver instance
+ observer = new IntersectionObserver(callback, options);
 
-   let sections = document.querySelectorAll('section');
-   sections.forEach(section => {
-     observer.observe(section);
-   });
+ let sections = document.querySelectorAll('section');
+ sections.forEach(section => {
+   observer.observe(section);
+ });
 })
 
 onDestroy(() => {
   observer?.disconnect();
 });
+
+
+
+import { register, init, getLocaleFromNavigator, locale } from 'svelte-i18n';
+
+
+register('en', () => import('$lib/language/en.json'));
+register('pt', () => import('$lib/language/pt.json'));
+
+init({
+  fallbackLocale: 'pt',
+  initialLocale: getLocaleFromNavigator(),
+});
+
+$: $locale = 'pt';
 </script>
 
 <div class="container">

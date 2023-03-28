@@ -1,4 +1,6 @@
 <script>
+  import { t } from 'svelte-i18n';
+
 	import SectionText from "$lib/components/section-text/SectionText.svelte";
   import iconHtml from '$lib/images/icon-lang/icon-html.png';
   import iconJs from '$lib/images/icon-lang/icon-js.png';
@@ -19,9 +21,9 @@
 
   import './style.scss';
 
-  const title = 'Serviços e skills';
-  const text = `Sou um desenvolvedor WEB experiente com mais de 4 anos de experiência e diversos sites prontos e onlines. `
-  const text2 = `Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade) .`
+  $:title = $t('service.title');
+  $:text = $t('service.text');
+  $:text2 = $t('service.text2');
   const list = 
   ['Desenvolvimento de sites responsivo', 
   'Desenvolvimento de e-commerce.', 
@@ -40,12 +42,15 @@
     <img src={iconReact} alt="">
     <img src={iconJquery} alt="">
   </div>
+
   <div class="service-skil__tria">
     <Triangles />
   </div>
+
   <div class="service-skil__text">
     <SectionText title={title} text={text} text2={text2} list={list}/>
   </div>
+
   <div class="service-skil__css">
     <img src={iconCss} alt="">
     <img src={iconSass} alt="">
@@ -53,6 +58,7 @@
     <img src={iconBootstrap} alt="">
     <img src={iconWp} alt="">
   </div>
+  
   <div class="service-skil__back">
     <img src={iconGit} alt="">
     <img src={iconPhp} alt="">

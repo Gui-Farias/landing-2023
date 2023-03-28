@@ -1,0 +1,37 @@
+{
+  "menu": {
+    "about": "Sobre Mim",
+    "service": "Serviços",
+    "work": "Trabalhos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "dev": "Desenvolvedor Web"
+  },
+  "about": {
+    "text": "Olá, sou Gui Farias, tenho 22 anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. Tenho mais de 5 anos de experiência como Desenvolvedor WEB.",
+    "text2": "Além de programar, eu amo criar. Quando não estou no computador, estou criando aventuras de RPG, desenhando ou transformando esses desenhos em código. Também adoro sair para passeios de bicicleta ou skate."
+  },
+  "btn": {
+    "cv": "Baixar CV",
+    "form": "Enviar email"
+  },
+  "service": {
+    "title": "Serviços e skills",
+    "text": "Sou um desenvolvedor WEB experiente com mais de 4 anos de experiência e diversos sites concluídos e onlines.",
+    "text2": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade)."
+  },
+  "work": {
+    "title": "Meus trabalhos"
+  },
+  "contact": {
+    "title": "Contato",
+    "subTitle": "Entre em contato",
+    "text": "Tem uma empresa ou um negócio e pretende desenvolver um site ou aplicativo para alavancar ele, uma proposta de trabalho ou até mesmo sugestões, críticas, entre em contato por esse formulário, que ficarei grato em responder!",
+    "online": "Encontre-me online!"
+  },
+  "form": {
+    "name": "Nome :",
+    "message": "Mensagem:"
+  }
+}

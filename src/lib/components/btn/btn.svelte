@@ -1,4 +1,5 @@
 <script>
+  import { t } from 'svelte-i18n';
 
   import './style.scss'
 
@@ -19,6 +20,7 @@
 <a href={cv} target="_blank" rel="noopener noreferrer" download='gui-farias-cv.pdf' aria-label="{text}">
   <button class="btn btn-primary">
     {text}
+    
   </button>
 </a>
 {:else}

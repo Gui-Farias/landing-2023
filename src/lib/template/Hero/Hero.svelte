@@ -1,4 +1,6 @@
 <script>
+  import { t } from 'svelte-i18n';
+
   import './style.scss';
 
   import { onMount } from 'svelte';
@@ -138,5 +140,5 @@ onMount(() => {
   <canvas id="canvasTitle" aria-label="Guilherme Farias"></canvas>
   <h1 class="title title--h1 orange hero__title">Guilherme Farias</h1>
 
-  <h2 class="title title--h2 white">Desenvolvedor Web</h2>
+  <h2 class="title title--h2 white">{$t('hero.dev')}</h2>
 </section>
