@@ -14,12 +14,20 @@
   },
   "btn": {
     "cv": "Download CV",
-    "form": "Send Email"
+    "form": "Send Email",
+    "site": "Visit the website"
   },
   "service": {
-    "title": "Services and skills",
+    "title": "Services/skills",
     "text": "I am an experienced web developer with over 4 years of experience and several websites completed and online.",
-    "text2": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility)."
+    "text2": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
+    "list": ["Responsive website development.", 
+    "E-commerce development.", 
+    "Updates in online website.", 
+    "Improving SEO, performance, and accessibility.", 
+    "Google Ads campaign management.", 
+    "Creating HTML for email marketing.", 
+    "Creating and supporting email with @company."]
   },
   "work": {
     "title": "My Works"
@@ -31,7 +39,18 @@
     "online": "Find me online!"
   },
   "form": {
-    "name": "Name :",
+    "name": "Name:",
     "message": "Message:"
+  },
+  "proj": {
+    "dani": {
+      "text": "Mental health is very important and something we all need, this site is the first step for you to schedule a conversation with psychologist Daniela Alves."
+    },
+    "cord": {
+      "text": "For those looking to rent trucks and machinery for their construction project, Cordeiro Locações offers great prices with a variety of models and options."
+    },
+    "live": {
+      "text": "During my work with Live Incentive, a promotion and incentive agency, I was able to develop their website showcasing great success stories and information about the agency."
+    }
   }
 }

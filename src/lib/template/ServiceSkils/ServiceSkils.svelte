@@ -24,14 +24,8 @@
   $:title = $t('service.title');
   $:text = $t('service.text');
   $:text2 = $t('service.text2');
-  const list = 
-  ['Desenvolvimento de sites responsivo', 
-  'Desenvolvimento de e-commerce.', 
-  'Atualizações em site no ar.', 
-  'Melhoraria SEO, performance e acessibilidade.', 
-  'Gerenciamento de campanha Google ADS.', 
-  'Criação de HTML para email marketing.', 
-  'Criação e suporte a email com @empresa']
+  $:list = $t('service.list');
+
 </script>
 
 <section class="service-skil" id="services">

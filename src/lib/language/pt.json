@@ -14,12 +14,20 @@
   },
   "btn": {
     "cv": "Baixar CV",
-    "form": "Enviar email"
+    "form": "Enviar email",
+    "site": "Visitar o site"
   },
   "service": {
     "title": "Serviços e skills",
     "text": "Sou um desenvolvedor WEB experiente com mais de 4 anos de experiência e diversos sites concluídos e onlines.",
-    "text2": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade)."
+    "text2": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade).",
+    "list": ["Desenvolvimento de sites responsivo.", 
+    "Desenvolvimento de e-commerce.", 
+    "Atualizações em site no ar.", 
+    "Melhoraria SEO, performance e acessibilidade.", 
+    "Gerenciamento de campanha Google ADS.", 
+    "Criação de HTML para email marketing.", 
+    "Criação e suporte a email com @empresa."]
   },
   "work": {
     "title": "Meus trabalhos"
@@ -31,7 +39,18 @@
     "online": "Encontre-me online!"
   },
   "form": {
-    "name": "Nome :",
+    "name": "Nome:",
     "message": "Mensagem:"
+  },
+  "proj": {
+    "dani": {
+      "text": "Saude mental é  muito importante e algo que todos precisamos, esse site é o primeiro passo para voce agendar uma conversa com a psicologa Daniela Alves."
+    },
+    "cord": {
+      "text": "Para quem busca alugar caminhões e maquinas para a sua obra, Cordeiro Locações tem ótimos preços com diversos modelos e opções."
+    },
+    "live": {
+      "text": "Durante meus serviços pela Live Incentive uma agencia de promoção e incentivo, pude desenvolver o site deles, mostrando ótimos cases de sucesso e informações sobre o mesmo."
+    }
   }
 }
