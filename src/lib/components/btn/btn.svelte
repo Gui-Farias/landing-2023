@@ -10,13 +10,13 @@
 </script>
 
 {#if link != ''}
-<a href={link} target="_blank" rel="noopener noreferrer">
+<a href={link} target="_blank" rel="noopener noreferrer" aria-label="{text}">
   <button class="btn btn-primary">
     {text}
   </button>
 </a>
 {:else if text == 'Baixar CV'}
-<a href={cv} target="_blank" rel="noopener noreferrer" download='gui-farias-cv.pdf'>
+<a href={cv} target="_blank" rel="noopener noreferrer" download='gui-farias-cv.pdf' aria-label="{text}">
   <button class="btn btn-primary">
     {text}
   </button>
