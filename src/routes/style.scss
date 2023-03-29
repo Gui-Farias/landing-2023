@@ -79,8 +79,38 @@ background-size: calc(4*calc(64px*.866)) calc(6*64px);
 box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	overflow-y: scroll;
 }
 
+::selection {
+	background-color: #FFF;
+	color: #000;
+}
+
+	
+@media only screen and (min-width: 728px){
+	::-webkit-scrollbar {
+		width: 12px; /* width of the scroll bar */
+	
+		&-track {
+			background-color: #f1f1f1; /* background color of the scroll bar track */
+			border-radius: 50px;
+		}
+		
+		&-thumb {
+			background-color: var(--color-primary); /* color of the scroll bar thumb */
+			border-radius: 50px;
+			
+			&:hover {
+				background-color: var(--color-secondary);
+			}
+		}
+	}
+}
+
+
+
+// style for container 
 .container {
 	box-sizing: border-box;
   max-width:1140px;
@@ -93,18 +123,13 @@ box-sizing: border-box;
 	}
 }
 
-
+// style basic for titles tags
 .title {
   font-family: 'Audiowide';
 
   &--h1 {
 		font-size: clamp(3rem, 1rem + 5vw, 6rem);
     line-height: 1;
-
-		::selection{
-			//    background-color: $colorPrimary;
-			//    color: $colorWhite;
-			}
   }
 
   &--h2 {
@@ -117,7 +142,7 @@ box-sizing: border-box;
   }
 }
 
-
+// style for animation on scroll
 section {
   opacity: 0;
 }

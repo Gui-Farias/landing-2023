@@ -41,10 +41,3 @@ export let list = [''];
     <Btn text={btn} link={link}/>
   {/if}
 </div>
-
-
-<style>
-::marker {
-  content: url(../../images/icon-right.svg);
-}
-</style>
