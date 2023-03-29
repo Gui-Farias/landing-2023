@@ -9,13 +9,21 @@
 
 
 <nav class="nav-main header__menu">
-  <ul class="nav-main__list">
+
+  <ul class="nav-main__list" aria-label="Main menu list">
     <li class="nav-main__item"><a href="#about">{$t('menu.about')}</a></li>
     <li class="nav-main__item"><a href="#services">{$t('menu.service')}</a></li>
     <li class="nav-main__item"><a href="#work">{$t('menu.work')}</a></li>
     <li class="nav-main__item"><a href="#contact">{$t('menu.contact')}</a></li>
-    <button on:click={() => ($locale = 'pt')} aria-label="Site em portugues" lang='pt'> <img src={pt}> </button>
-    <button on:click={() => ($locale = 'en')} aria-label="Site in English" lang='en'> <img src={en}> </button>
+  </ul>
+
+  <ul class="nav-main__lang" aria-label="Website languages">
+    <li>
+      <button on:click={() => ($locale = 'pt')} aria-label="Site em portugues" lang='pt'> <img src={pt} alt=""> </button>
+    </li>
+    <li>
+      <button on:click={() => ($locale = 'en')} aria-label="Site in English" lang='en'> <img src={en} alt=""> </button>
+    </li>
   </ul>
 </nav>
 
