@@ -9,7 +9,7 @@
     "dev": "Web Developer"
   },
   "about": {
-    "text": "Hello, I'm Gui Farias, 22 years old and graduated in Systems Analysis and Development from Impacta college. I'm passionate about technology and its innovative capacity. I have over 5 years of experience as a web developer.",
+    "text": "Hello, I'm Guilherme Farias, 22 years old and graduated in Systems Analysis and Development from Impacta college. I'm passionate about technology and its innovative capacity. I have over 5 years of experience as a web developer.",
     "text2": "In addition to programming, I love to create. When I'm not on the computer, I'm creating RPG adventures, drawing, or turning those drawings into code. I also love going for bike or skateboard rides."
   },
   "btn": {
@@ -21,13 +21,15 @@
     "title": "Services/skills",
     "text": "I am an experienced web developer with over 5 years of experience and several websites completed and online.",
     "text2": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
-    "list": ["Responsive website development.", 
-    "E-commerce development.", 
-    "Updates in online website.", 
-    "Improving SEO, performance, and accessibility.", 
-    "Google Ads campaign management.", 
-    "Creating HTML for email marketing.", 
-    "Creating and supporting email with @company."]
+    "list": [
+      "Responsive website development.",
+      "E-commerce development.",
+      "Updates in online website.",
+      "Improving SEO, performance, and accessibility.",
+      "Google Ads campaign management.",
+      "Creating HTML for email marketing.",
+      "Creating and supporting email with @company."
+    ]
   },
   "work": {
     "title": "My Works"
@@ -52,5 +54,6 @@
     "live": {
       "text": "During my work with Live Incentive, a promotion and incentive agency, I was able to develop their website showcasing great success stories and information about the agency."
     }
-  }
+  },
+  "skip": "Skip to main content"
 }

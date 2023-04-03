@@ -12,22 +12,16 @@
 </script>
 
 {#if link != ''}
-<a href={link} target="_blank" rel="noopener noreferrer" aria-label="{text}">
-  <button class="btn btn-primary">
-    {text}
-  </button>
+<a href={link} class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="{text}">
+  {text}
 </a>
 {:else if text == 'Baixar CV'}
-<a href={cv} target="_blank" rel="noopener noreferrer" download='gui-farias-cv.pdf' aria-label="{text}">
-  <button class="btn btn-primary">
-    {text}
-  </button>
+<a href={cv} class="btn btn-primary" target="_blank" rel="noopener noreferrer" download='gui-farias-cv.pdf' aria-label="{text}">
+  {text}
 </a>
 {:else if text == 'Download CV'}
-<a href={cvEn} target="_blank" rel="noopener noreferrer" download='cv-guiFarias-english.pdf' aria-label="{text}">
-  <button class="btn btn-primary">
-    {text}
-  </button>
+<a href={cvEn} class="btn btn-primary" target="_blank" rel="noopener noreferrer" download='cv-guiFarias-english.pdf' aria-label="{text}">
+  {text}
 </a>
 {:else}
 <button class="btn btn-primary">

@@ -9,7 +9,7 @@
     "dev": "Desenvolvedor Web"
   },
   "about": {
-    "text": "Olá, sou Gui Farias, tenho 22 anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. Tenho mais de 5 anos de experiência como Desenvolvedor WEB.",
+    "text": "Olá, sou Guilherme Farias, tenho 22 anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. Tenho mais de 5 anos de experiência como Desenvolvedor WEB.",
     "text2": "Além de programar, eu amo criar. Quando não estou no computador, estou criando aventuras de RPG, desenhando ou transformando esses desenhos em código. Também adoro sair para passeios de bicicleta ou skate."
   },
   "btn": {
@@ -21,13 +21,15 @@
     "title": "Serviços e skills",
     "text": "Sou um desenvolvedor WEB experiente com mais de 5 anos de experiência e diversos sites concluídos e onlines.",
     "text2": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade).",
-    "list": ["Desenvolvimento de sites responsivo.", 
-    "Desenvolvimento de e-commerce.", 
-    "Atualizações em site no ar.", 
-    "Melhoraria SEO, performance e acessibilidade.", 
-    "Gerenciamento de campanha Google ADS.", 
-    "Criação de HTML para email marketing.", 
-    "Criação e suporte a email com @empresa."]
+    "list": [
+      "Desenvolvimento de sites responsivo.",
+      "Desenvolvimento de e-commerce.",
+      "Atualizações em site no ar.",
+      "Melhoraria SEO, performance e acessibilidade.",
+      "Gerenciamento de campanha Google ADS.",
+      "Criação de HTML para email marketing.",
+      "Criação e suporte a email com @empresa."
+    ]
   },
   "work": {
     "title": "Meus trabalhos"
@@ -52,5 +54,6 @@
     "live": {
       "text": "Durante meus serviços pela Live Incentive uma agencia de promoção e incentivo, pude desenvolver o site deles, mostrando ótimos cases de sucesso e informações sobre o mesmo."
     }
-  }
+  },
+  "skip": "Ir para o conteúdo principal"
 }
