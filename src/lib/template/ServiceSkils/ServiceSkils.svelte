@@ -37,7 +37,7 @@
     <img src={iconJquery} alt="">
   </div>
 
-  <div class="service-skil__tria">
+  <div class="service-skil__tria-start">
     <Triangles />
   </div>
 
@@ -53,6 +53,10 @@
     <img src={iconWp} alt="">
   </div>
   
+  <div class="service-skil__tria-end">
+    <Triangles />
+  </div>
+
   <div class="service-skil__back">
     <img src={iconGit} alt="">
     <img src={iconPhp} alt="">

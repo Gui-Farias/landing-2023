@@ -1,14 +1,16 @@
 .work {
+
   > .title{
     text-align: center;
     position: relative;
+    padding-top: 100px;
     margin-block: 100px 150px;    
 
     &::after {
       content: url(../../images//icon-medal.png);
       position: absolute;
-      right: 150px;
-      top: -100px;
+      right: 10%;
+      top: -50px;
     }
     
     @media only screen and (max-width:728px){

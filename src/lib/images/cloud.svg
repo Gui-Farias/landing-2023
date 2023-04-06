@@ -19,6 +19,7 @@
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_126_129"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_126_129" result="shape"/>
 </filter>
+<g id="cloud-lights">
 <linearGradient id="paint0_linear_126_129" x1="100.849" y1="164.884" x2="150.081" y2="89.7658" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFDC4A"/>
 <stop offset="1" stop-color="#F37322"/>
@@ -27,6 +28,7 @@
 <stop stop-color="#FFDC4A"/>
 <stop offset="1" stop-color="#F37322"/>
 </linearGradient>
+</g>
 <linearGradient id="paint2_linear_126_129" x1="64.7747" y1="118.319" x2="143.031" y2="15.6704" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0.2"/>
 <stop offset="1" stop-color="white" stop-opacity="0.49"/>
