@@ -3,14 +3,14 @@
 
   import Project from "$lib/components/project/Project.svelte";
 
-  import pcDani from '$lib/images/proj/pc-dani.png';
-  import mobileDani from '$lib/images/proj/mobile-dani.png';
+  import pcDani from '$lib/images/proj/pc-dani.webp';
+  import mobileDani from '$lib/images/proj/mobile-dani.webp';
 
-  import pcCord from '$lib/images/proj/pc-cord.png';
-  import mobileCord from '$lib/images/proj/mobile-cord.png';
+  import pcCord from '$lib/images/proj/pc-cord.webp';
+  import mobileCord from '$lib/images/proj/mobile-cord.webp';
 
-  import pcLive from '$lib/images/proj/pc-live.png';
-  import mobileLive from '$lib/images/proj/mobile-live.png';
+  import pcLive from '$lib/images/proj/pc-live.webp';
+  import mobileLive from '$lib/images/proj/mobile-live.webp';
 
   import './style.scss';
 

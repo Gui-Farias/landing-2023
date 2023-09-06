@@ -1,5 +1,5 @@
 <script>
-  import Gui from '$lib/images/Guilherme-Farias.png';
+  import Gui from '$lib/images/Guilherme-Farias.webp';
 </script>
 
 
