@@ -14,10 +14,10 @@
 })
 
 function sendEmail(e) {
-  emailjs.init('JL8Mpz8IZ3POXOuvS');
+  emailjs.init('PjfDy2itT3FG_Arvm');
 
   const serviceID = 'default_service';
-  const templateID = 'template_03020sb';
+  const templateID = 'template_uvfo2el';
 
   var templateParams = {
     name: e.target[0].value,

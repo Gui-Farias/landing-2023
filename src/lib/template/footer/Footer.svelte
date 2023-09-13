@@ -15,8 +15,8 @@
   <Logo />
 
   <div class="footer__email">
-    <a href="mailto:hello@guifarias.com.br">
-      <h2 class="title title--h2"> <img src={iconMessage} alt="" aria-hidden="true"> hello@guifarias.com.br</h2>
+    <a href="mailto:ola@guifarias.com">
+      <h2 class="title title--h2"> <img src={iconMessage} alt="" aria-hidden="true"> ola@guifarias.com</h2>
     </a>
   </div>
 
