@@ -15,7 +15,10 @@
     <Triangles />
   </div>
   
-  <Logo />
+
+  <a href="/">
+    <Logo />
+  </a>
 
   <div class="footer__email">
     <a href="mailto:ola@guifarias.com">

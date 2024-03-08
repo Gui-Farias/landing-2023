@@ -13,6 +13,12 @@
     text-align: center;
   }
 
+  &__eu {
+    max-width: 200px;
+    border-radius: 50%;
+    filter: grayscale(0.9);
+  }
+
   
   @media only screen and (min-width:924px){
     padding-block: 100px 60px;

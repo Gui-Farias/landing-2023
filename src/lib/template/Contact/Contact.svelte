@@ -7,6 +7,7 @@ import SectionText from '$lib/components/section-text/SectionText.svelte';
 import SocialMenu from '$lib/components/social-menu/social-menu.svelte';
 import './style.scss';
 
+import Eu from '$lib/images/Eu.jpeg';
   
 import { onMount, onDestroy } from 'svelte';
   let observer;
@@ -67,6 +68,7 @@ onDestroy(() => {
       </div>
       <div class="contact__social">
         <h3 class="title title--h3 blue">{$t('contact.online')}</h3>
+        <img src={Eu} alt="" class="contact__eu">
         <SocialMenu />
       </div>
     </div>
