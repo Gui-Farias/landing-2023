@@ -5,6 +5,9 @@
   import iconMessage from '$lib/images/icon-message.png';
 
   import './style.scss';
+
+  const dataAtual = new Date();
+  const anoAtual = dataAtual. getFullYear();
 </script>
 
 <footer class="footer">
@@ -21,6 +24,6 @@
   </div>
 
   <div class="footer__copy">
-    <p>© 2023 - HTML Template by Guilherme Farias</p>
+    <p>© {anoAtual} - HTML Template by Guilherme Farias</p>
   </div>
 </footer>
