@@ -24,6 +24,6 @@
   </div>
 
   <div class="footer__copy">
-    <p>© {anoAtual} - HTML Template by Guilherme Farias</p>
+    <p>© {anoAtual} - HTML Template Guilherme Farias</p>
   </div>
 </footer>
