@@ -56,7 +56,7 @@ onDestroy(() => {
 <div class="contact__cloud">
   <Cloud />
 </div>
-<section class="contact" id="contact">
+<section class="contact animaItemHide itemHideTop" id="contact">
   <div class="container">
     <h2 class="title title--h2">{$t('contact.title')}</h2>
     <div class="contact__text">

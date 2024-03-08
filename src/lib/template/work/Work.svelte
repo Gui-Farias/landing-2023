@@ -9,8 +9,8 @@
   import pcCord from '$lib/images/proj/pc-cord.webp';
   import mobileCord from '$lib/images/proj/mobile-cord.webp';
 
-  import pcLive from '$lib/images/proj/pc-live.webp';
-  import mobileLive from '$lib/images/proj/mobile-live.webp';
+  import pcBg from '$lib/images/proj/pc-bg.png';
+  import mobileBg from '$lib/images/proj/mobile-bg.webp';
 
   import './style.scss';
 
@@ -20,16 +20,16 @@
   const titleCord = 'Cordeiro Locações';
   const linkCord = 'http://cordeiro-locacoes.vercel.app';
 
-  const titleLive = 'Live Incentive';
-  const linkLive = 'http://liveincentive.com.br';
+  const titleBg = 'BG Softhouse';
+  const linkBg = 'https://bgsofthouse.com.br';
 </script>
 
-<section class="work" id="work">
+<section class="work animaItemHide itemHideTop" id="work" >
   <h2 class="title title--h2 white">{$t('work.title')}</h2>
 
-  <Project title={titleDani} text={$t('proj.dani.text')} btn={$t('btn.site')} link={linkDani} pc={pcDani} mobile={mobileDani}/>
-  <Project title={titleCord} text={$t('proj.cord.text')} btn={$t('btn.site')} link={linkCord} pc={pcCord} mobile={mobileCord} invert/>
-  <Project title={titleLive} text={$t('proj.live.text')} btn={$t('btn.site')} link={linkLive} pc={pcLive} mobile={mobileLive}/>
+  <Project title={titleBg} text={$t('proj.bg.text')} btn={$t('btn.site')} link={linkBg} pc={pcBg} mobile={mobileBg}/>
+  <Project title={titleDani} text={$t('proj.dani.text')} btn={$t('btn.site')} link={linkDani} pc={pcDani} mobile={mobileDani} invert/>
+  <Project title={titleCord} text={$t('proj.cord.text')} btn={$t('btn.site')} link={linkCord} pc={pcCord} mobile={mobileCord} />
 
 
 </section>

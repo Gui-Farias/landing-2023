@@ -143,12 +143,35 @@ box-sizing: border-box;
   }
 }
 
-// style for animation on scroll
-section {
-  opacity: 0;
+
+
+
+//animacao para scroll
+
+
+//esconde da esquerda para o lugar
+.itemHideLeft {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(-100px);
 }
 
-.visible {
-  opacity: 1;
-  transition: opacity 0.5s;
+//esconde da direita para o lugar
+.itemHideRight {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(100px);
+}
+
+//esconde de cima para o lugar
+.itemHideTop {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(-100px);
+}
+
+//Exibe novamente
+.animaItemHide.visible{
+	opacity: 1;
+	transform: translateX(0) translateY(0); 
 }

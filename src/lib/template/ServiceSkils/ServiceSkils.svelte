@@ -28,7 +28,7 @@
 
 </script>
 
-<section class="service-skil" id="services">
+<section class="service-skil animaItemHide itemHideTop" id="services">
   <div class="service-skil__js">
     <img src={iconHtml} alt="">
     <img src={iconJs} alt="">
