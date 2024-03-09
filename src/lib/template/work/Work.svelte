@@ -17,12 +17,13 @@
   const titleDani = 'Daniela Alves Psicologa';
   const linkDani = 'https://danielapsicologia.com.br/';
 
-  const titleCord = 'Cordeiro Locações';
-  const linkCord = 'http://cordeiro-locacoes.vercel.app';
+  const titleCord = 'Gui Locações';
+  const linkCord = 'https://gui-locacoes.vercel.app';
 
   const titleBg = 'BG Softhouse';
   const linkBg = 'https://bgsofthouse.com.br';
 </script>
+
 
 <section class="work animaItemHide itemHideTop" id="work" >
   <h2 class="title title--h2 white">{$t('work.title')}</h2>
