@@ -1,6 +1,4 @@
 <script>
-  import { t } from 'svelte-i18n';
-
   import './style.scss'
 
   import cv from '$lib/gui-farias-cv.pdf';
