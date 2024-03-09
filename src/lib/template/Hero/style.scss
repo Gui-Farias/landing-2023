@@ -1,6 +1,6 @@
 .hero {
   text-align: center;
-  margin-block: 17vh 25vh;
+  margin-block: 17vh 30vh;
   position: relative;
 
   #canvasTitle {
@@ -9,7 +9,7 @@
     display: none;
   }
 
-  @media only screen and (min-width:728px) {
+  @media only screen and (min-width:828px) {
     margin-block: 27vh 35vh;
 
     .hero__title {
@@ -19,6 +19,9 @@
     #canvasTitle {
       display: block;
     }
+  }
+  @media only screen and (min-width:1240px) {
+    margin-bottom: 45vh;
   }
 
   &::before {

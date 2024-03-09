@@ -47,7 +47,7 @@
   
 <style>
   #cloud-lights {
-    transition-delay: 1.2s;
+    transition-delay: 1s;
     opacity: 0;
   }
   @media only screen and (max-width:924px) {

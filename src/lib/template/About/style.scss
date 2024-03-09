@@ -1,23 +1,24 @@
 .about {
   width: 100%;
   
-  @media only screen and (min-width: 728px) {
+
+  @media only screen and (min-width: 828px) {
     display:  flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     
-    .bio {
+    &__bio {
       box-sizing: border-box;    
       margin-right: 15%;
       width: 50%;
-      margin-top: 50px;
+      margin-top: 100px;
     }
     
     &__photo {
       position: relative;
       display: block;
       margin-right: -15%;
-      top: -70px;
+      top: -100px;
       width: 35%;
     }
   }

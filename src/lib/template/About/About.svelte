@@ -8,12 +8,13 @@
   
 </script>
 
-<section class="about animaItemHide itemHideTop" id="about" >
-  <div class="about__photo">
+<section class="about " id="about" >
+  <div class="about__photo animaItemHide itemHideTop">
     <Gui />
     <SocialMenu/>
   </div>
-  
-  <Bio />
+  <div class="about__bio animaItemHide itemHideTop">
+    <Bio />
+  </div>
   
 </section>

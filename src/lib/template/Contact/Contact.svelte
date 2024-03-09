@@ -17,16 +17,13 @@ import { onMount, onDestroy } from 'svelte';
     // Do something when an observed element intersects the viewport
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        // The observed element is intersecting the viewport
-        console.log('aqu');
-
         // animation for cloud entres
         let cloud = document.querySelector('.contact__cloud');
         cloud?.classList.add('cloud-show');
 
         setTimeout(() => {
           entry.target.classList.add('contact-clip');
-        }, 1450)
+        }, 1400)
 
         entry.target.classList.add('visible');
       }
@@ -54,23 +51,25 @@ onDestroy(() => {
 });
 </script>
 
-<div class="contact__cloud">
-  <Cloud />
-</div>
-<section class="contact animaItemHide itemHideTop" id="contact">
-  <div class="container">
-    <h2 class="title title--h2">{$t('contact.title')}</h2>
-    <div class="contact__text">
-      <div class="contact__content">
-        <SectionText title={$t('contact.subTitle')} h={3} text={$t('contact.text')} secondary/>
-  
-        <Form />
-      </div>
-      <div class="contact__social">
-        <h3 class="title title--h3 blue">{$t('contact.online')}</h3>
-        <img src={Eu} alt="" class="contact__eu">
-        <SocialMenu />
+<div class="all-contact">
+  <div class="contact__cloud">
+    <Cloud />
+  </div>
+  <section class="contact animaItemHide itemHideTop" id="contact">
+    <div class="container">
+      <h2 class="title title--h2">{$t('contact.title')}</h2>
+      <div class="contact__text">
+        <div class="contact__content">
+          <SectionText title={$t('contact.subTitle')} h={3} text={$t('contact.text')} secondary/>
+    
+          <Form />
+        </div>
+        <div class="contact__social">
+          <h3 class="title title--h3 blue">{$t('contact.online')}</h3>
+          <img src={Eu} alt="" class="contact__eu">
+          <SocialMenu />
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>

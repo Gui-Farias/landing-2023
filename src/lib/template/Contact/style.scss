@@ -1,8 +1,13 @@
+.all-contact {
+  overflow-x: clip;
+}
+
 .contact {
   background-color: var(--color-light);
   padding-block: 50px;
   position: relative;
-  
+  overflow: hidden;
+
   .container > .title {
     text-align: center;
     text-shadow: 1.5px 1.5px var(--color-primary);
@@ -40,7 +45,7 @@
       display: block;
       position: relative;
       opacity: 0;
-      transition: all 1s;
+      transition: all 0.8s;
       z-index: 100;
 
 

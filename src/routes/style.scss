@@ -81,6 +81,7 @@ box-sizing: border-box;
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	width: 100vw;
 }
 
 ::selection {
@@ -89,7 +90,7 @@ box-sizing: border-box;
 }
 
 	
-@media only screen and (min-width: 728px){
+@media only screen and (min-width: 828px){
 	::-webkit-scrollbar {
 		width: 12px; /* width of the scroll bar */
 	
@@ -114,13 +115,19 @@ box-sizing: border-box;
 // style for container 
 .container {
 	box-sizing: border-box;
-  max-width:1140px;
-  margin-inline: auto;
-	width: 94%;
-	
-	@media only screen and (max-width: 728px){
-		text-align: center;
-		width: 80%;
+  	max-width:1140px;
+  	min-width:280px;
+  	margin-inline: auto;
+	width: 80%;
+	text-align: center;
+	  
+	  @media only screen and (min-width: 828px){
+		width: 94%;
+		text-align: left;
+	}
+
+	@media only screen and (min-width: 1440px){
+		max-width:1240px;
 	}
 }
 

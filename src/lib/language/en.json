@@ -9,8 +9,9 @@
     "dev": "Web Developer"
   },
   "about": {
-    "text": "Hello, I'm Guilherme Farias, 23 years old and graduated in Systems Analysis and Development from Impacta college. I'm passionate about technology and its innovative capacity. I have over 5 years of experience as a web developer.",
-    "text2": "In addition to programming, I love to create. When I'm not on the computer, I'm creating RPG adventures, drawing, or turning those drawings into code. I also love going for bike or skateboard rides."
+    "text": "Hello, I'm Guilherme Farias, 23 years old, and I have a degree in Systems Analysis and Development from Impacta College. I'm passionate about technology and its capacity for innovation. I have over 5 years of experience in web development.",
+    "text2": "Currently, I've been studying ThreeJs to incorporate 3D elements into the web and enhance the user experience while navigating the site. Additionally, I'm also learning native mobile development.",
+    "text3": "Besides programming, I love creating, whether it's RPG adventures, drawings, or those drawings in code with CSS. I also enjoy going for bike rides and skateboarding."
   },
   "btn": {
     "cv": "Download CV",
@@ -19,8 +20,7 @@
   },
   "service": {
     "title": "Services/skills",
-    "text": "I am an experienced web developer with over 5 years of experience and several websites completed and online.",
-    "text2": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
+    "text": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
     "list": [
       "Responsive website development.",
       "E-commerce development.",
@@ -30,6 +30,11 @@
       "Creating HTML for email marketing.",
       "Creating and supporting email with @company."
     ]
+  },
+  "skill": {
+    "lang": "Programming languages",
+    "frame": "Frameworks",
+    "tools": "Tools"
   },
   "work": {
     "title": "My Works"

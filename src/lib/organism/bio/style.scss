@@ -6,8 +6,11 @@
   padding: 48px 12% 48px 4%;
   position: relative;
 
-  @media only screen and (min-width:728px){
-    padding: 60px 8% 88px 4%;
+  @media only screen and (min-width:828px){
+    padding: 60px 10% 88px 4%;
+  }
+  @media only screen and (min-width: 1240px) {
+    padding: 80px 14% 88px 8%;
   }
 
   &::before {

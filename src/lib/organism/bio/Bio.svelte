@@ -7,6 +7,7 @@
   const title = 'Gui Farias';
   $:text = $t('about.text');
   $:text2 = $t('about.text2');
+  $:text3 = $t('about.text3');
 
   $:btn = $t('btn.cv');
 
@@ -14,5 +15,5 @@
 
 
 <div class="bio">
-  <SectionText title={title} text={text} text2={text2} btn={btn} secondary/>
+  <SectionText title={title} text={text} text3={text3} text2={text2} btn={btn} secondary/>
 </div>

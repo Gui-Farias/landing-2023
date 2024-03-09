@@ -6,8 +6,9 @@
   flex-direction: column-reverse;
   margin-top: 30px;
 
-  @media only screen and (min-width: 728px){
+  @media only screen and (min-width: 828px){
     justify-content: space-between;
     flex-direction: row;
+    margin-top: 0;
   }
 }

@@ -8,6 +8,7 @@ export let title = 'Hello World';
 export let h = 2;
 export let text = `lorem ipsum`;
 export let text2 = '';
+export let text3 = '';
 export let btn = 'false';
 export let link = '';
 export let list = [''];
@@ -21,9 +22,13 @@ export let list = [''];
   {/if}
   <p class="paragraphy">
     {text}
-    <br/><br/>
     {#if text2} 
+      <br/><br/>
       {text2}
+    {/if}
+    {#if text3} 
+      <br/><br/>
+      {text3}
     {/if}
     {#if list[0]}
     <ul class="section-text__list">
