@@ -9,7 +9,7 @@
   import pcCord from '$lib/images/proj/pc-cord.webp';
   import mobileCord from '$lib/images/proj/mobile-cord.webp';
 
-  import pcBg from '$lib/images/proj/pc-bg.png';
+  import pcBg from '$lib/images/proj/pc-bg.webp';
   import mobileBg from '$lib/images/proj/mobile-bg.webp';
 
   import './style.scss';
