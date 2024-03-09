@@ -4,5 +4,5 @@
 </script>
 
 <a href="https://www.linkedin.com/in/guilherme-farias/" target="_blank" rel="noopener noreferrer">
-  <img src={Likedin} alt="link likedin">
+  <img src={Likedin} alt="link likedin" title="Linkedin Guilherme Farias">
 </a>
