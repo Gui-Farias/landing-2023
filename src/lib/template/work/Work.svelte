@@ -21,7 +21,7 @@
   const linkCord = 'https://gui-locacoes.vercel.app';
 
   const titleBg = 'BG Softhouse';
-  const linkBg = 'https://bgsofthouse.com.br';
+  const linkBg = 'https://bg-softhouse.vercel.app';
 </script>
 
 
