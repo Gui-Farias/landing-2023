@@ -4,8 +4,13 @@
 
   import './style.scss'
 
+  const anoAtual = new Date().getFullYear();
+  const mesAtual = new Date().getMonth();
+  
+  const yearsOld = anoAtual - (mesAtual > 4 ? 2000 : 2001)
+
   const title = 'Gui Farias';
-  $:text = $t('about.text');
+  $:text = $t('about.text', {values: {yearsOld}});
   $:text2 = $t('about.text2');
   $:text3 = $t('about.text3');
 

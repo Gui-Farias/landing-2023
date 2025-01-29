@@ -9,7 +9,7 @@
     "dev": "Desenvolvedor Web"
   },
   "about": {
-    "text": "Olá, sou o Guilherme Farias, tenho 24 anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. conto com mais de 5 anos de experiência em Desenvolvimento web.",
+    "text": "Olá, sou o Guilherme Farias, tenho {yearsOld} anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. conto com mais de 5 anos de experiência em Desenvolvimento web.",
     "text2": "Atualmente venho estudando ThreeJs para colocar elementos 3D na web e assim melhorar a experiencia do usuario ao navegar no site, em paralelo tambem estou aprendendo desenvolvimento mobile nativo.",
     "text3": "Além de programar, eu amo criar seja aventuras de RPG, desenhos ou esses desenhos em código com CSS. Também adoro sair para passeios de bicicleta e skate."
   },
