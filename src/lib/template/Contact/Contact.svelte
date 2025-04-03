@@ -7,7 +7,7 @@ import SectionText from '$lib/components/section-text/SectionText.svelte';
 import SocialMenu from '$lib/components/social-menu/social-menu.svelte';
 import './style.scss';
 
-import Eu from '$lib/images/Eu.jpeg';
+import Eu from '$lib/images/Eu.webp';
   
 import { onMount, onDestroy } from 'svelte';
   let observer;
