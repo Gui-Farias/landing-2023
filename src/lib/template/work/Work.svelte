@@ -3,8 +3,8 @@
 
   import Project from "$lib/components/project/Project.svelte";
 
-  import pcDani from '$lib/images/proj/pc-dani.webp';
-  import mobileDani from '$lib/images/proj/mobile-dani.webp';
+  import pcVoid from '$lib/images/proj/pc-void.webp';
+  import mobileVoid from '$lib/images/proj/mobile-void.webp';
 
   import pcCord from '$lib/images/proj/pc-cord.webp';
   import mobileCord from '$lib/images/proj/mobile-cord.webp';
@@ -14,8 +14,8 @@
 
   import './style.scss';
 
-  const titleDani = 'Daniela Alves Psicologa';
-  const linkDani = 'https://danielapsicologia.com.br/';
+  const titleVoid = 'Void Agency';
+  const linkVoid = 'https://voidagency.com.br';
 
   const titleCord = 'Gui Locações';
   const linkCord = 'https://gui-locacoes.vercel.app';
@@ -28,8 +28,8 @@
 <section class="work animaItemHide itemHideTop" id="work" >
   <h2 class="title title--h2 white">{$t('work.title')}</h2>
 
-  <Project title={titleBg} text={$t('proj.bg.text')} btn={$t('btn.site')} link={linkBg} pc={pcBg} mobile={mobileBg}/>
-  <Project title={titleDani} text={$t('proj.dani.text')} btn={$t('btn.site')} link={linkDani} pc={pcDani} mobile={mobileDani} invert/>
+  <Project title={titleVoid} text={$t('proj.void.text')} btn={$t('btn.site')} link={linkVoid} pc={pcVoid} mobile={mobileVoid} />
+  <Project title={titleBg} text={$t('proj.bg.text')} btn={$t('btn.site')} link={linkBg} pc={pcBg} mobile={mobileBg} invert />
   <Project title={titleCord} text={$t('proj.cord.text')} btn={$t('btn.site')} link={linkCord} pc={pcCord} mobile={mobileCord} />
 
 

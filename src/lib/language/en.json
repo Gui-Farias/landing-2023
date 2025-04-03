@@ -50,8 +50,8 @@
     "message": "Message:"
   },
   "proj": {
-    "dani": {
-      "text": "Mental health is very important and something we all need, this site is the first step for you to schedule a conversation with psychologist Daniela Alves."
+    "void": {
+      "text": "I developed the layout and code for the website, a digital marketing agency where I showcase the services and projects that I have developed as a freelancer."
     },
     "cord": {
       "text": "For those looking to rent trucks and machinery for their construction projects, Gui Rentals offers excellent prices with various models and options. - The first project testing Svelte."

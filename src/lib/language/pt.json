@@ -50,14 +50,14 @@
     "message": "Mensagem:"
   },
   "proj": {
-    "dani": {
-      "text": "Saude mental é  muito importante e algo que todos precisamos, esse site é o primeiro passo para voce agendar uma conversa com a psicologa Daniela Alves."
+    "void": {
+      "text": "Desenvolvi o layout e o codigo do site, uma agencia de marketing digital onde mostro os serviços e projetos que eu já desenvolvi sendo freelancer."
     },
     "cord": {
       "text": "Para quem busca alugar caminhões e maquinas para a sua obra, Gui Locações tem ótimos preços com diversos modelos e opções. - primeiro projeto testando o Svelte."
     },
     "bg": {
-      "text": "Criei a identidade visual da BG Softhouse uma agencia de marketing, com ela consegui desenhar o layout e desenvolver o site, criando um canal de divulgação para a agencia de MKT."
+      "text": "Criei a identidade visual da BG Softhouse uma agencia de marketing, com ela consegui aprender mais sobre layout e o desenvolvimento do site, criando uma experiencia unica."
     }
   },
   "skip": "Ir para o conteúdo principal"
