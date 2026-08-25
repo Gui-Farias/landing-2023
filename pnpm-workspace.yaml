@@ -1,0 +1,10 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@sveltejs/kit': true
+  es5-ext: true
+  esbuild: true
+  svelte-preprocess: true
+
+overrides:
+  cookie: 0.7.2
+  esbuild: 0.28.2

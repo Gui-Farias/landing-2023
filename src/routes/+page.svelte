@@ -8,6 +8,6 @@
 
 <Hero />
 <About />
-<Skills/>
+<Skills />
 <Servics />
 <Work />

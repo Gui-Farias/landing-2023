@@ -1,64 +1,64 @@
 {
-  "menu": {
-    "about": "About",
-    "service": "Services",
-    "work": "Work",
-    "contact": "Contact"
-  },
-  "hero": {
-    "dev": "Web Developer"
-  },
-  "about": {
-    "text": "Hello, I'm Guilherme Farias, {yearsOld} years old, and I have a degree in Systems Analysis and Development from Impacta College. I'm passionate about technology and its capacity for innovation. I have over 5 years of experience in web development.",
-    "text2": "Currently, I've been studying ThreeJs to incorporate 3D elements into the web and enhance the user experience while navigating the site. Additionally, I'm also learning native mobile development.",
-    "text3": "Besides programming, I love creating, whether it's RPG adventures, drawings, or those drawings in code with CSS. I also enjoy going for bike rides and skateboarding."
-  },
-  "btn": {
-    "cv": "Download CV",
-    "form": "Send Email",
-    "site": "Visit the website"
-  },
-  "service": {
-    "title": "Services/skills",
-    "text": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
-    "list": [
-      "Responsive website development.",
-      "E-commerce development.",
-      "Updates in online website.",
-      "Improving SEO, performance, and accessibility.",
-      "Google Ads campaign management.",
-      "Creating HTML for email marketing.",
-      "Creating and supporting email with @company."
-    ]
-  },
-  "skill": {
-    "lang": "Programming languages",
-    "frame": "Frameworks",
-    "tools": "Tools"
-  },
-  "work": {
-    "title": "My Works"
-  },
-  "contact": {
-    "title": "Contact",
-    "subTitle": "Send an Email",
-    "text": "If you have a company or business and are looking to develop a website or application to leverage it, a job proposal, or even suggestions or criticism, please contact me through this form. I would be happy to respond!",
-    "online": "Find me online!"
-  },
-  "form": {
-    "name": "Name:",
-    "message": "Message:"
-  },
-  "proj": {
-    "void": {
-      "text": "I developed the layout and code for the website, a digital marketing agency where I showcase the services and projects that I have developed as a freelancer."
-    },
-    "cord": {
-      "text": "For those looking to rent trucks and machinery for their construction projects, Gui Rentals offers excellent prices with various models and options. - The first project testing Svelte."
-    },
-    "bg": {
-      "text": "I created the visual identity of BG Softhouse, a marketing agency. With it, I was able to design the layout and develop the website, creating a promotional channel for the agency."
-    }
-  },
-  "skip": "Skip to main content"
+	"menu": {
+		"about": "About",
+		"service": "Services",
+		"work": "Work",
+		"contact": "Contact"
+	},
+	"hero": {
+		"dev": "Web Developer"
+	},
+	"about": {
+		"text": "Hello, I'm Guilherme Farias, {yearsOld} years old, and I have a degree in Systems Analysis and Development from Impacta College. I'm passionate about technology and its capacity for innovation. I have over 5 years of experience in web development.",
+		"text2": "Currently, I've been studying ThreeJs to incorporate 3D elements into the web and enhance the user experience while navigating the site. Additionally, I'm also learning native mobile development.",
+		"text3": "Besides programming, I love creating, whether it's RPG adventures, drawings, or those drawings in code with CSS. I also enjoy going for bike rides and skateboarding."
+	},
+	"btn": {
+		"cv": "Download CV",
+		"form": "Send Email",
+		"site": "Visit the website"
+	},
+	"service": {
+		"title": "Services/skills",
+		"text": "I possess solid skills in HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), as well as advanced knowledge in UI/UX, SEO rules, analytics, and WCAG (accessibility).",
+		"list": [
+			"Responsive website development.",
+			"E-commerce development.",
+			"Updates in online website.",
+			"Improving SEO, performance, and accessibility.",
+			"Google Ads campaign management.",
+			"Creating HTML for email marketing.",
+			"Creating and supporting email with @company."
+		]
+	},
+	"skill": {
+		"lang": "Programming languages",
+		"frame": "Frameworks",
+		"tools": "Tools"
+	},
+	"work": {
+		"title": "My Works"
+	},
+	"contact": {
+		"title": "Contact",
+		"subTitle": "Send an Email",
+		"text": "If you have a company or business and are looking to develop a website or application to leverage it, a job proposal, or even suggestions or criticism, please contact me through this form. I would be happy to respond!",
+		"online": "Find me online!"
+	},
+	"form": {
+		"name": "Name:",
+		"message": "Message:"
+	},
+	"proj": {
+		"void": {
+			"text": "I developed the layout and code for the website, a digital marketing agency where I showcase the services and projects that I have developed as a freelancer."
+		},
+		"octa": {
+			"text": "Created with the main goal of giving new artists space and supporting the growth of independent artists, Octa Estúdio is ready to help you."
+		},
+		"cord": {
+			"text": "For those looking to rent trucks and machinery for their construction projects, Gui Rentals offers excellent prices with various models and options. - The first project testing Svelte."
+		}
+	},
+	"skip": "Skip to main content"
 }

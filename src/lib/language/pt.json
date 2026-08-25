@@ -1,64 +1,64 @@
 {
-  "menu": {
-    "about": "Sobre Mim",
-    "service": "Serviços",
-    "work": "Trabalhos",
-    "contact": "Contato"
-  },
-  "hero": {
-    "dev": "Desenvolvedor Web"
-  },
-  "about": {
-    "text": "Olá, sou o Guilherme Farias, tenho {yearsOld} anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. conto com mais de 5 anos de experiência em Desenvolvimento web.",
-    "text2": "Atualmente venho estudando ThreeJs para colocar elementos 3D na web e assim melhorar a experiencia do usuario ao navegar no site, em paralelo tambem estou aprendendo desenvolvimento mobile nativo.",
-    "text3": "Além de programar, eu amo criar seja aventuras de RPG, desenhos ou esses desenhos em código com CSS. Também adoro sair para passeios de bicicleta e skate."
-  },
-  "btn": {
-    "cv": "Baixar CV",
-    "form": "Enviar email",
-    "site": "Visitar o site"
-  },
-  "service": {
-    "title": "Serviços e skills",
-    "text": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade).",
-    "list": [
-      "Desenvolvimento de sites responsivo.",
-      "Desenvolvimento de e-commerce.",
-      "Atualizações em site no ar.",
-      "Melhoraria SEO, performance e acessibilidade.",
-      "Gerenciamento de campanha Google ADS.",
-      "Criação de HTML para email marketing.",
-      "Criação e suporte a email com @empresa."
-    ]
-  },
-  "skill": {
-    "lang": "Linguagens",
-    "frame": "Frameworks",
-    "tools": "Ferramentas"
-  },
-  "work": {
-    "title": "Meus trabalhos"
-  },
-  "contact": {
-    "title": "Contato",
-    "subTitle": "Entre em contato",
-    "text": "Tem uma empresa ou um negócio e pretende desenvolver um site ou aplicativo para alavancar ele, uma proposta de trabalho ou até mesmo sugestões, críticas, entre em contato por esse formulário, que ficarei grato em responder!",
-    "online": "Encontre-me online!"
-  },
-  "form": {
-    "name": "Nome:",
-    "message": "Mensagem:"
-  },
-  "proj": {
-    "void": {
-      "text": "Desenvolvi o layout e o codigo do site, uma agencia de marketing digital onde mostro os serviços e projetos que eu já desenvolvi sendo freelancer."
-    },
-    "cord": {
-      "text": "Para quem busca alugar caminhões e maquinas para a sua obra, Gui Locações tem ótimos preços com diversos modelos e opções. - primeiro projeto testando o Svelte."
-    },
-    "bg": {
-      "text": "Criei a identidade visual da BG Softhouse uma agencia de marketing, com ela consegui aprender mais sobre layout e o desenvolvimento do site, criando uma experiencia unica."
-    }
-  },
-  "skip": "Ir para o conteúdo principal"
+	"menu": {
+		"about": "Sobre Mim",
+		"service": "Serviços",
+		"work": "Trabalhos",
+		"contact": "Contato"
+	},
+	"hero": {
+		"dev": "Desenvolvedor Web"
+	},
+	"about": {
+		"text": "Olá, sou o Guilherme Farias, tenho {yearsOld} anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. conto com mais de 5 anos de experiência em Desenvolvimento web.",
+		"text2": "Atualmente venho estudando ThreeJs para colocar elementos 3D na web e assim melhorar a experiencia do usuario ao navegar no site, em paralelo tambem estou aprendendo desenvolvimento mobile nativo.",
+		"text3": "Além de programar, eu amo criar seja aventuras de RPG, desenhos ou esses desenhos em código com CSS. Também adoro sair para passeios de bicicleta e skate."
+	},
+	"btn": {
+		"cv": "Baixar CV",
+		"form": "Enviar email",
+		"site": "Visitar o site"
+	},
+	"service": {
+		"title": "Serviços e skills",
+		"text": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade).",
+		"list": [
+			"Desenvolvimento de sites responsivo.",
+			"Desenvolvimento de e-commerce.",
+			"Atualizações em site no ar.",
+			"Melhoraria SEO, performance e acessibilidade.",
+			"Gerenciamento de campanha Google ADS.",
+			"Criação de HTML para email marketing.",
+			"Criação e suporte a email com @empresa."
+		]
+	},
+	"skill": {
+		"lang": "Linguagens",
+		"frame": "Frameworks",
+		"tools": "Ferramentas"
+	},
+	"work": {
+		"title": "Meus trabalhos"
+	},
+	"contact": {
+		"title": "Contato",
+		"subTitle": "Entre em contato",
+		"text": "Tem uma empresa ou um negócio e pretende desenvolver um site ou aplicativo para alavancar ele, uma proposta de trabalho ou até mesmo sugestões, críticas, entre em contato por esse formulário, que ficarei grato em responder!",
+		"online": "Encontre-me online!"
+	},
+	"form": {
+		"name": "Nome:",
+		"message": "Mensagem:"
+	},
+	"proj": {
+		"void": {
+			"text": "Desenvolvi o layout e o codigo do site, uma agencia de marketing digital onde mostro os serviços e projetos que eu já desenvolvi sendo freelancer."
+		},
+		"octa": {
+			"text": "Com o principal objetivo de dar espaço para novos artistas e contribuir para o crescimento de artistas independentes, Octa Estúdio foi criada e está pronta para te ajudar!"
+		},
+		"cord": {
+			"text": "Para quem busca alugar caminhões e maquinas para a sua obra, Gui Locações tem ótimos preços com diversos modelos e opções. - primeiro projeto testando o Svelte."
+		}
+	},
+	"skip": "Ir para o conteúdo principal"
 }

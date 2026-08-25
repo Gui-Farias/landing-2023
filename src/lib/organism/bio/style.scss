@@ -1,27 +1,27 @@
 .bio {
-  background-color: var(--color-light);
-  background: #1746a2;
-  background: linear-gradient(145deg, #1745a290 50%, #ff741d80 100%) var(--color-light);
-  clip-path: polygon(8% 8%, 92% 8%, 100% 0%, 100% 92%, 92% 100%, 0% 100%, 0% 8%, 8% 0%);
-  padding: 48px 12% 48px 4%;
-  position: relative;
+	background-color: var(--color-light);
+	background: #1746a2;
+	background: linear-gradient(145deg, #1745a290 50%, #ff741d80 100%) var(--color-light);
+	clip-path: polygon(8% 8%, 92% 8%, 100% 0%, 100% 92%, 92% 100%, 0% 100%, 0% 8%, 8% 0%);
+	padding: 48px 12% 48px 4%;
+	position: relative;
 
-  @media only screen and (min-width:828px){
-    padding: 60px 10% 88px 4%;
-  }
-  @media only screen and (min-width: 1240px) {
-    padding: 80px 14% 88px 8%;
-  }
+	@media only screen and (min-width: 828px) {
+		padding: 60px 10% 88px 4%;
+	}
+	@media only screen and (min-width: 1240px) {
+		padding: 80px 14% 88px 8%;
+	}
 
-  &::before {
-    background-color: var(--color-dark);
-    content: '';
-    display: block;
-    width: 2px;
-    height: 100%;
-    right: 8%;
-    position: absolute;
-    top: 0;
-    z-index: 4;
-  }
+	&::before {
+		background-color: var(--color-dark);
+		content: '';
+		display: block;
+		width: 2px;
+		height: 100%;
+		right: 8%;
+		position: absolute;
+		top: 0;
+		z-index: 4;
+	}
 }
