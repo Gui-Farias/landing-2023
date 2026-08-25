@@ -4,6 +4,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit()],
 	preview: {
-		allowedHosts: ['guifarias-guifarias.dyn2sl.easypanel.host']
+		allowedHosts: ['guifarias-guifarias.dyn2sl.easypanel.host', 'guifarias.com.br']
 	}
 });
