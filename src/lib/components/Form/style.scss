@@ -4,6 +4,10 @@
 	}
 
 	.btn {
+		box-sizing: border-box;
+		display: inline-block;
 		margin-block: 30px;
+		max-width: 100%;
+		padding-inline: clamp(20px, 6vw, 70px);
 	}
 }

@@ -18,5 +18,5 @@
 </script>
 
 <div class="bio">
-	<SectionText {title} {text} {text3} {text2} {btn} secondary />
+	<SectionText {title} headingId="about-heading" {text} {text3} {text2} {btn} secondary />
 </div>

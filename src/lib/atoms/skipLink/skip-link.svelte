@@ -2,11 +2,13 @@
 	import { t } from 'svelte-i18n';
 </script>
 
-<a href="#about" class="skip-link">{$t('skip')} </a>
+<a href="#main-content" class="skip-link">{$t('skip')}</a>
 
 <style>
 	.skip-link {
 		background-color: var(--color-primary);
+		color: var(--color-dark);
+		opacity: 0;
 		padding: 6px 12px;
 		position: relative;
 		top: -50px;
@@ -14,6 +16,7 @@
 	}
 
 	.skip-link:focus {
-		top: 0;
+		top: 12px;
+		opacity: 1;
 	}
 </style>

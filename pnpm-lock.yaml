@@ -12,9 +12,6 @@ importers:
 
   .:
     dependencies:
-      '@emailjs/browser':
-        specifier: ^4.4.1
-        version: 4.4.1
       sass:
         specifier: ^1.103.1
         version: 1.103.1
@@ -54,10 +51,6 @@ importers:
         version: 8.2.2(esbuild@0.28.2)(sass@1.103.1)
 
 packages:
-
-  '@emailjs/browser@4.4.1':
-    resolution: {integrity: sha512-DGSlP9sPvyFba3to2A50kDtZ+pXVp/0rhmqs2LmbMS3I5J8FSOgLwzY2Xb4qfKlOVHh29EAutLYwe5yuEZmEFg==}
-    engines: {node: '>=14.0.0'}
 
   '@esbuild/aix-ppc64@0.28.2':
     resolution: {integrity: sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==}
@@ -889,8 +882,6 @@ packages:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
 
 snapshots:
-
-  '@emailjs/browser@4.4.1': {}
 
   '@esbuild/aix-ppc64@0.28.2':
     optional: true

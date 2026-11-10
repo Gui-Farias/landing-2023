@@ -2,13 +2,16 @@
 	import Header from '$lib/template/Header/Header.svelte';
 	import Contact from '$lib/template/Contact/Contact.svelte';
 	import Footer from '$lib/template/footer/Footer.svelte';
+	import Wpp from '$lib/atoms/Wpp/Wpp.svelte';
 
 	import './style.scss';
 
 	import en from '$lib/language/en.json';
 	import pt from '$lib/language/pt.json';
-	import { addMessages, init } from 'svelte-i18n';
+	import { addMessages, dictionary, init } from 'svelte-i18n';
 
+	// The app ships complete dictionaries. Avoid merging repeated lists on reload.
+	dictionary.set({});
 	addMessages('en', en);
 	addMessages('pt', pt);
 
@@ -19,37 +22,29 @@
 
 	import { onMount } from 'svelte';
 
-	let itemsAnima: NodeListOf<HTMLElement>;
-
-	function animaScroll() {
-		// Loop através de cada item e verifica se está na tela
-		itemsAnima?.forEach((item) => {
-			const rect = item.getBoundingClientRect();
-			const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-
-			// Se o item estiver pelo menos 85% visível, adiciona a classe 'visible'
-			rect.top < viewportHeight * 0.85 && rect.bottom > 0
-				? item.classList.add('visible')
-				: item.classList.remove('visible');
-		});
-	}
-
-	// Pega os items e adiciona o evento
 	onMount(() => {
-		itemsAnima = document.querySelectorAll('.animaItemHide');
-		window.addEventListener('scroll', animaScroll);
-		animaScroll();
+		if (!('IntersectionObserver' in window)) return;
 
-		return () => {
-			window.removeEventListener('scroll', animaScroll);
-		};
+		const observer = new IntersectionObserver((entries) => {
+			for (const entry of entries) {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('revealed');
+					observer.unobserve(entry.target);
+				}
+			}
+		});
+		document.querySelectorAll('.reveal-on-scroll').forEach((item) => observer.observe(item));
+		return () => observer.disconnect();
 	});
 </script>
 
-<div class="container">
-	<Header />
+<Header />
 
-	<slot />
-</div>
-<Contact />
+<main id="main-content" tabindex="-1">
+	<div class="container">
+		<slot />
+	</div>
+	<Contact />
+</main>
 <Footer />
+<Wpp floating />

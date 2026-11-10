@@ -1,6 +1,10 @@
 {
 	"menu": {
 		"about": "Sobre Mim",
+		"navigation": "Navegação principal",
+		"languages": "Idiomas do site",
+		"open": "Abrir menu",
+		"close": "Fechar menu",
 		"service": "Serviços",
 		"work": "Trabalhos",
 		"contact": "Contato"
@@ -8,48 +12,63 @@
 	"hero": {
 		"dev": "Desenvolvedor Web"
 	},
+	"theme": {
+		"useLight": "Ativar tema claro",
+		"useDark": "Ativar tema escuro"
+	},
 	"about": {
-		"text": "Olá, sou o Guilherme Farias, tenho {yearsOld} anos e sou formado em Análise e Desenvolvimento de Sistemas pela faculdade Impacta, sou apaixonado por tecnologia e sua capacidade de inovação. conto com mais de 5 anos de experiência em Desenvolvimento web.",
-		"text2": "Atualmente venho estudando ThreeJs para colocar elementos 3D na web e assim melhorar a experiencia do usuario ao navegar no site, em paralelo tambem estou aprendendo desenvolvimento mobile nativo.",
-		"text3": "Além de programar, eu amo criar seja aventuras de RPG, desenhos ou esses desenhos em código com CSS. Também adoro sair para passeios de bicicleta e skate."
+		"portrait": "Retrato de Guilherme Farias",
+		"socialLabel": "Perfis de Guilherme Farias",
+		"text": "Olá, sou Guilherme Farias e tenho {yearsOld} anos. Concluí a Pós Tech em Front-End Engineering pela FIAP e sou graduado em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta. Sou entusiasta da tecnologia e de seu potencial inovador, com mais de seis anos de experiência em desenvolvimento web.",
+		"text2": "Atualmente, estudo Three.js e D3.js para integrar dashboards inteligentes e elementos 3D à web, visando aprimorar a experiência do usuário.",
+		"text3": "Além da programação, gosto de criar aventuras de RPG, ilustrações e animações em CSS. Também gosto de atividades ao ar livre, como correr, andar de bicicleta e andar de skate."
 	},
 	"btn": {
 		"cv": "Baixar CV",
-		"form": "Enviar email",
-		"site": "Visitar o site"
+		"form": "Abrir no WhatsApp",
+		"site": "Visitar o site de {project}"
 	},
 	"service": {
-		"title": "Serviços e skills",
-		"text": "Possuo habilidades sólidas em HTML, CSS (Scss, Bootstrap, Tailwind), JS ES6 (Jquery, React, Svelte), PHP (Wordpress), além de conhecimento avançado em UI/UX, regras SEO, analytics e WCAG (acessibilidade).",
+		"title": "Criação de sites e SEO técnico",
+		"text": "Desenvolvo sites responsivos, lojas virtuais e aplicações web sob medida para empresas e profissionais. Também melhoro sites existentes com SEO técnico, otimização de desempenho e ajustes de acessibilidade.",
 		"list": [
-			"Desenvolvimento de sites responsivo.",
-			"Desenvolvimento de e-commerce.",
-			"Atualizações em site no ar.",
-			"Melhoraria SEO, performance e acessibilidade.",
-			"Gerenciamento de campanha Google ADS.",
-			"Criação de HTML para email marketing.",
-			"Criação e suporte a email com @empresa."
+			"Criação de sites institucionais e landing pages responsivas.",
+			"Desenvolvimento de lojas virtuais.",
+			"Desenvolvimento de sistemas personalizados.",
+			"Manutenção e atualização de sites existentes.",
+			"SEO técnico com revisão de títulos, metadados, rastreamento e indexação.",
+			"Criação de templates HTML para e-mail marketing.",
+			"Configuração e suporte de e-mail profissional com domínio próprio."
 		]
 	},
 	"skill": {
 		"lang": "Linguagens",
 		"frame": "Frameworks",
-		"tools": "Ferramentas"
+		"tools": "Ferramentas",
+		"ai": "IA"
 	},
 	"work": {
 		"title": "Meus trabalhos"
 	},
 	"contact": {
 		"title": "Contato",
-		"subTitle": "Entre em contato",
-		"text": "Tem uma empresa ou um negócio e pretende desenvolver um site ou aplicativo para alavancar ele, uma proposta de trabalho ou até mesmo sugestões, críticas, entre em contato por esse formulário, que ficarei grato em responder!",
+		"subTitle": "Fale comigo pelo WhatsApp",
+		"text": "Conte sobre seu projeto, proposta de trabalho ou dúvida.",
+		"whatsappLabel": "Fale comigo no WhatsApp",
+		"socialLabel": "Outros canais de contato",
 		"online": "Encontre-me online!"
 	},
 	"form": {
 		"name": "Nome:",
-		"message": "Mensagem:"
+		"message": "Mensagem:",
+		"hint": "Os dois campos são obrigatórios. Você revisará a mensagem no WhatsApp antes de enviar.",
+		"fixErrors": "Confira os campos indicados.",
+		"nameRequired": "Informe seu nome.",
+		"messageRequired": "Escreva sua mensagem.",
+		"whatsappText": "Olá, Gui! Meu nome é {name}.\n\n{message}"
 	},
 	"proj": {
+		"preview": "Prévia do site de {project}",
 		"void": {
 			"text": "Desenvolvi o layout e o codigo do site, uma agencia de marketing digital onde mostro os serviços e projetos que eu já desenvolvi sendo freelancer."
 		},
@@ -59,6 +78,9 @@
 		"cord": {
 			"text": "Para quem busca alugar caminhões e maquinas para a sua obra, Gui Locações tem ótimos preços com diversos modelos e opções. - primeiro projeto testando o Svelte."
 		}
+	},
+	"footer": {
+		"home": "Página inicial de Guilherme Farias"
 	},
 	"skip": "Ir para o conteúdo principal"
 }

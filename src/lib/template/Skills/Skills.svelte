@@ -5,9 +5,9 @@
 </script>
 
 <section class="skills">
-	<div class="skills__box skills__lang animaItemHide itemHideTop">
+	<div class="skills__box skills__lang reveal-on-scroll">
 		<h2>{$t('skill.lang')}</h2>
-		<ul class="skills__list">
+		<ul class="skills__list" role="list">
 			<li class="skills__item">
 				<div class="icon">
 					<div class=" simple-icons--html5"></div>
@@ -16,7 +16,7 @@
 				<div class="progress">
 					<div class="bar html5"></div>
 				</div>
-				<div class="percentage">98%</div>
+				<div class="percentage">99%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -26,7 +26,7 @@
 				<div class="progress">
 					<div class="bar css3"></div>
 				</div>
-				<div class="percentage">95%</div>
+				<div class="percentage">98%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -36,17 +36,7 @@
 				<div class="progress">
 					<div class="bar js"></div>
 				</div>
-				<div class="percentage">85%</div>
-			</li>
-			<li class="skills__item">
-				<div class="icon">
-					<div class="akar-icons--php-fill"></div>
-					<p class="icon-name">PHP</p>
-				</div>
-				<div class="progress">
-					<div class="bar php"></div>
-				</div>
-				<div class="percentage">65%</div>
+				<div class="percentage">90%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -56,7 +46,17 @@
 				<div class="progress">
 					<div class="bar sql"></div>
 				</div>
-				<div class="percentage">65%</div>
+				<div class="percentage">80%</div>
+			</li>
+			<li class="skills__item">
+				<div class="icon">
+					<div class="akar-icons--php-fill"></div>
+					<p class="icon-name">PHP</p>
+				</div>
+				<div class="progress">
+					<div class="bar php"></div>
+				</div>
+				<div class="percentage">75%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -66,34 +66,14 @@
 				<div class="progress">
 					<div class="bar python"></div>
 				</div>
-				<div class="percentage">40%</div>
-			</li>
-			<li class="skills__item">
-				<div class="icon">
-					<div class="tabler--brand-kotlin"></div>
-					<p class="icon-name">Kotlin</p>
-				</div>
-				<div class="progress">
-					<div class="bar kotlin"></div>
-				</div>
-				<div class="percentage">30%</div>
-			</li>
-			<li class="skills__item">
-				<div class="icon">
-					<div class="tabler--brand-swift"></div>
-					<p class="icon-name">Swift</p>
-				</div>
-				<div class="progress">
-					<div class="bar swift"></div>
-				</div>
-				<div class="percentage">30%</div>
+				<div class="percentage">50%</div>
 			</li>
 		</ul>
 	</div>
 
-	<div class="skills__box skills__frame animaItemHide itemHideTop">
+	<div class="skills__box skills__frame reveal-on-scroll">
 		<h2>{$t('skill.frame')}</h2>
-		<ul class="skills__list">
+		<ul class="skills__list" role="list">
 			<li class="skills__item">
 				<div class="icon">
 					<div class="devicon-plain--svelte"></div>
@@ -102,7 +82,7 @@
 				<div class="progress">
 					<div class="bar svelte"></div>
 				</div>
-				<div class="percentage">65%</div>
+				<div class="percentage">75%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -112,7 +92,7 @@
 				<div class="progress">
 					<div class="bar react"></div>
 				</div>
-				<div class="percentage">60%</div>
+				<div class="percentage">70%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -132,14 +112,34 @@
 				<div class="progress">
 					<div class="bar threejs"></div>
 				</div>
-				<div class="percentage">20%</div>
+				<div class="percentage">25%</div>
+			</li>
+			<li class="skills__item">
+				<div class="icon">
+					<div class="icon-d3" aria-hidden="true"></div>
+					<p class="icon-name">D3.js</p>
+				</div>
+				<div class="progress">
+					<div class="bar d3js"></div>
+				</div>
+				<div class="percentage">25%</div>
 			</li>
 		</ul>
 	</div>
 
-	<div class="skills__box skills__tools animaItemHide itemHideTop">
+	<div class="skills__box skills__tools reveal-on-scroll">
 		<h2>{$t('skill.tools')}</h2>
-		<ul class="skills__list">
+		<ul class="skills__list" role="list">
+			<li class="skills__item">
+				<div class="icon">
+					<div class="icon-ai" aria-hidden="true"></div>
+					<p class="icon-name">{$t('skill.ai')}</p>
+				</div>
+				<div class="progress">
+					<div class="bar ai"></div>
+				</div>
+				<div class="percentage">90%</div>
+			</li>
 			<li class="skills__item">
 				<div class="icon">
 					<div class="simple-icons--tailwindcss"></div>
@@ -158,7 +158,7 @@
 				<div class="progress">
 					<div class="bar git"></div>
 				</div>
-				<div class="percentage">80%</div>
+				<div class="percentage">90%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">
@@ -168,7 +168,7 @@
 				<div class="progress">
 					<div class="bar wordpress"></div>
 				</div>
-				<div class="percentage">75%</div>
+				<div class="percentage">80%</div>
 			</li>
 			<li class="skills__item">
 				<div class="icon">

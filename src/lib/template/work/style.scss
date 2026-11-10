@@ -6,8 +6,12 @@
 		margin-block: 50px 130px;
 
 		&::after {
-			content: url(../../images//icon-medal.png);
+			content: '';
 			position: absolute;
+			width: 252px;
+			height: 286px;
+			background: url(../../images/icon-medal.png) center / contain no-repeat;
+			pointer-events: none;
 			right: 10%;
 			top: -50px;
 		}

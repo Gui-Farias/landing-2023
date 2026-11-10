@@ -7,16 +7,12 @@
 		width: 100%;
 		height: 150px;
 		display: none;
+		filter: var(--theme-icon-filter);
 	}
 
 	@media only screen and (min-width: 828px) {
 		margin-block: 27vh 35vh;
-
-		.hero__title {
-			display: none;
-		}
-
-		#canvasTitle {
+		&--animated #canvasTitle {
 			display: block;
 		}
 	}
@@ -24,23 +20,23 @@
 		margin-bottom: 45vh;
 	}
 
-	&::before {
-		content: url(../../images/icon-chip.svg);
-		display: block;
+	&::before,
+	&::after {
+		content: '';
 		position: absolute;
+		width: min(40%, 270px);
+		aspect-ratio: 289 / 311;
+		background: url(../../images/icon-chip.svg) center / contain no-repeat;
+		pointer-events: none;
+	}
+
+	&::before {
 		left: -40px;
 		top: 20vh;
-		max-width: 270px;
-		width: 40%;
 	}
 
 	&::after {
-		content: url(../../images/icon-chip.svg);
-		display: block;
-		position: absolute;
 		right: -20px;
 		bottom: 25vh;
-		max-width: 270px;
-		width: 40%;
 	}
 }

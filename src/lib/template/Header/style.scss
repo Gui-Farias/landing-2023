@@ -1,14 +1,77 @@
+.header-shell {
+	@media (min-width: 960px) {
+		position: sticky;
+		top: 0;
+		z-index: 105;
+		// Reserve the original header space as its visible bar gets shorter.
+		min-height: calc(var(--desktop-logo-height) + 1lh);
+		pointer-events: none;
+
+		> .container {
+			position: relative;
+		}
+
+		.header,
+		.skip-link {
+			pointer-events: auto;
+		}
+
+		&--scrolled {
+			&::before {
+				content: '';
+				position: absolute;
+				inset: 0 0 auto;
+				height: var(--desktop-compact-header-height);
+				box-sizing: border-box;
+				border-bottom: 1px solid var(--theme-border);
+				background: var(--theme-surface);
+				box-shadow: 0 6px 18px rgb(0 0 0 / 35%);
+			}
+
+			.skip-link {
+				position: absolute;
+				inset-inline-start: 0;
+			}
+
+			.header {
+				min-height: var(--desktop-compact-header-height);
+			}
+
+			.header__logo {
+				height: 48px;
+			}
+		}
+	}
+}
+
 .header {
 	align-items: center;
 	display: flex;
-	gap: 30px;
-	justify-content: center;
-	flex-direction: column-reverse;
+	gap: 16px;
+	justify-content: space-between;
 	margin-top: 30px;
+	position: relative;
 
-	@media only screen and (min-width: 828px) {
-		justify-content: space-between;
-		flex-direction: row;
+	&__logo {
+		width: 62px;
+		height: auto;
+	}
+
+	@media (min-width: 960px) {
+		gap: 30px;
 		margin-top: 0;
+
+		&__logo {
+			width: auto;
+			height: var(--desktop-logo-height);
+		}
+	}
+}
+
+@media (min-width: 960px) {
+	:root {
+		--desktop-logo-height: 127px;
+		--desktop-compact-header-height: 68px;
+		--desktop-scroll-offset: calc(var(--desktop-compact-header-height) + 1rem);
 	}
 }

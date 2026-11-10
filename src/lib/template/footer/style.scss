@@ -1,6 +1,6 @@
 .footer {
-	background-color: var(--color-dark);
-	color: var(--color-light);
+	background-color: var(--theme-surface);
+	color: var(--theme-text);
 	text-align: center;
 	padding-top: 64px;
 	position: relative;
@@ -18,11 +18,11 @@
 		margin: 100px auto 30px;
 		max-width: calc(100vw - 32px);
 		position: relative;
-		text-shadow: 1.5px 1.5px var(--color-primary);
+		text-shadow: var(--theme-title-shadow);
 		width: fit-content;
 
 		&::after {
-			background-color: var(--color-light);
+			background-color: var(--theme-text);
 			box-shadow: 0 -160px 0 0px;
 			content: '';
 			display: block;
@@ -38,13 +38,13 @@
 		}
 
 		&::before {
-			background-color: var(--color-light);
+			background-color: var(--theme-text);
 			content: '';
 			display: block;
 			height: 2px;
 			position: relative;
 			margin-inline: auto;
-			width: 300px;
+			width: min(300px, 100%);
 			bottom: -162px;
 
 			@media only screen and (max-width: 768px) {
@@ -53,30 +53,22 @@
 		}
 
 		.title {
-			line-height: 0;
-			margin: 0;
+			display: inline-block;
+			max-width: 100%;
+			font-weight: 700;
+			line-height: 1.25;
 			overflow-wrap: anywhere;
 
 			@media only screen and (max-width: 768px) {
 				font-size: clamp(1rem, 0.75rem + 3vw, 1.625rem);
-				line-height: 1.25;
-
-				img {
-					display: none;
-				}
 			}
-		}
-
-		a {
-			display: inline-block;
-			max-width: 100%;
 		}
 	}
 
 	&__copy {
 		font-size: 14px;
 		padding: 60px;
-		text-shadow: 1.5px 1.5px var(--color-secondary);
+		text-shadow: var(--theme-accent-shadow);
 
 		@media only screen and (max-width: 828px) {
 			padding-bottom: 0;

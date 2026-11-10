@@ -1,7 +1,16 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 	<head>
 		<meta charset="utf-8" />
+		<script>
+			try {
+				if (localStorage.getItem('guifarias-theme') === 'light') {
+					document.documentElement.dataset.theme = 'light';
+				}
+			} catch {
+				// Keep the default theme if storage is unavailable.
+			}
+		</script>
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<link rel="stylesheet" href="%sveltekit.assets%/fonts/style.css" />
 		<meta name="viewport" content="width=device-width" />
@@ -9,11 +18,39 @@
 		<meta name="robots" content="index, follow" />
 		<meta
 			name="description"
-			content="Gui Farias desenvolvedor Web Full Stack em São Paulo. Tenho 5 anos de programação com tecnologias web modernas, especialista em desenvolvimento de sites, apps e sistemas personalizados, com foco em usabilidade, performance, acessibilidade e segurança. Conheça meu portfólio e entre em contato para criar soluções digitais sob medida para o seu negócio - Guilherme Farias"
+			content="Gui Farias é desenvolvedor web em São Paulo. Criação de sites responsivos, lojas virtuais e aplicações sob medida, com SEO técnico, desempenho e acessibilidade."
 		/>
 		<meta name="google-site-verification" content="nL8_eFCxvjAdvQoVBapkrOQeox1O3jZDURN-KbYegFY" />
-		<title>Guilherme Farias - Desenvolvedor - Programador - Gui Farias</title>
+		<title>Gui Farias | Criação de Sites e SEO Técnico em São Paulo</title>
 		%sveltekit.head%
+		<noscript>
+			<style>
+				#main-menu-panel .nav-main__controls {
+					display: none;
+				}
+
+				@media (width < 960px) {
+					.nav-main .nav-main__toggle {
+						display: none;
+					}
+
+					#main-menu-panel {
+						position: static;
+						width: auto;
+						padding: 0;
+						border: 0;
+						background: none;
+						box-shadow: none;
+						visibility: visible;
+						transform: none;
+					}
+
+					#main-menu-panel > .nav-main__list {
+						visibility: visible;
+					}
+				}
+			</style>
+		</noscript>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

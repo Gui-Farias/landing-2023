@@ -9,8 +9,13 @@
 	$: list = $json('service.list') as string[];
 </script>
 
-<section class="servics animaItemHide itemHideTop" id="services">
+<section
+	class="servics reveal-on-scroll"
+	id="services"
+	aria-labelledby="services-heading"
+	tabindex="-1"
+>
 	<div class="servics__text">
-		<SectionText {title} {text} {list} />
+		<SectionText {title} headingId="services-heading" {text} {list} />
 	</div>
 </section>

@@ -5,9 +5,11 @@
 	import Wpp from '$lib/atoms/Wpp/Wpp.svelte';
 
 	import './style.scss';
+
+	export let label;
 </script>
 
-<nav class="social-menu">
+<nav class="social-menu" aria-label={label}>
 	<ul class="social-menu__list">
 		<li class="social-menu__item"><Linkedin /></li>
 		<li class="social-menu__item"><Codepen /></li>

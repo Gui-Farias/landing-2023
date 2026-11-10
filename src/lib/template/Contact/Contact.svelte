@@ -9,63 +9,64 @@
 
 	import Eu from '$lib/images/Eu.webp';
 
-	import { onMount, onDestroy } from 'svelte';
-	let observer: IntersectionObserver | undefined;
-
-	const callback: IntersectionObserverCallback = (entries) => {
-		entries.forEach((entry) => {
-			if (entry.isIntersecting) {
-				const cloud = document.querySelector<HTMLElement>('.contact__cloud');
-				cloud?.classList.add('cloud-show');
-
-				setTimeout(() => {
-					entry.target.classList.add('contact-clip');
-				}, 1400);
-
-				entry.target.classList.add('visible');
-			}
-		});
-	};
-
-	// Define the options object
-	const options = {
-		root: null, // Use the viewport as the root element
-		rootMargin: '0px', // No margin around the viewport
-		threshold: 0.3 // Trigger the callback when the observed element is fully visible
-	};
+	import { onMount } from 'svelte';
+	let contact: HTMLElement;
+	let cloud: HTMLDivElement;
 
 	onMount(() => {
-		// Create a new IntersectionObserver instance
-		observer = new IntersectionObserver(callback, options);
+		if (
+			!('IntersectionObserver' in window) ||
+			matchMedia('(prefers-reduced-motion: reduce)').matches
+		)
+			return;
 
-		let contact = document.getElementById('contact');
-		if (contact) {
-			observer.observe(contact);
-		}
-	});
-
-	onDestroy(() => {
-		observer?.disconnect();
+		let clipTimer: number | undefined;
+		const observer = new IntersectionObserver(
+			(entries) => {
+				if (!entries.some((entry) => entry.isIntersecting)) return;
+				cloud.classList.add('cloud-show');
+				clipTimer = window.setTimeout(() => contact.classList.add('contact-clip'), 1400);
+				observer.disconnect();
+			},
+			{ threshold: 0.3 }
+		);
+		observer.observe(contact);
+		return () => {
+			observer.disconnect();
+			window.clearTimeout(clipTimer);
+		};
 	});
 </script>
 
 <div class="all-contact">
-	<div class="contact__cloud">
+	<div class="contact__cloud" bind:this={cloud} aria-hidden="true">
 		<Cloud />
 	</div>
-	<section class="contact animaItemHide itemHideTop" id="contact">
+	<section
+		class="contact"
+		id="contact"
+		aria-labelledby="contact-heading"
+		tabindex="-1"
+		bind:this={contact}
+	>
 		<div class="container">
-			<h2 class="title title--h2">{$t('contact.title')}</h2>
+			<h2 class="title title--h2" id="contact-heading">{$t('contact.title')}</h2>
 			<div class="contact__text">
 				<div class="contact__content">
-					<SectionText title={$t('contact.subTitle')} h={3} text={$t('contact.text')} secondary />
+					<SectionText
+						title={$t('contact.subTitle')}
+						headingId="contact-form-heading"
+						h={3}
+						text={$t('contact.text')}
+						secondary
+					/>
 
 					<Form />
 				</div>
 				<div class="contact__social">
 					<h3 class="title title--h3 blue">{$t('contact.online')}</h3>
 					<img src={Eu} alt="" class="contact__eu" />
-					<SocialMenu />
+					<SocialMenu label={$t('contact.socialLabel')} />
 				</div>
 			</div>
 		</div>

@@ -1,12 +1,9 @@
 <script>
+	import { t } from 'svelte-i18n';
 	import Gui from '$lib/images/Guilherme-Farias.webp';
 </script>
 
-<img
-	src={Gui}
-	alt="Guilherme Farias - homem branco com cabelo curto, usando oculos, sorridente com um bigode fino e um cavanhaque"
-	class="gui-photo"
-/>
+<img src={Gui} alt={$t('about.portrait')} class="gui-photo" />
 
 <style>
 	.gui-photo {

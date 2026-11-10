@@ -4,10 +4,18 @@
 	import MainMenu from '$lib/components/main-menu/MainMenu.svelte';
 
 	import './style.scss';
+
+	let scrollY = 0;
 </script>
 
-<SkipLink />
-<header class="header">
-	<Logo />
-	<MainMenu />
+<svelte:window bind:scrollY />
+
+<header class="header-shell" class:header-shell--scrolled={scrollY > 0}>
+	<div class="container">
+		<SkipLink />
+		<div class="header">
+			<Logo />
+			<MainMenu />
+		</div>
+	</div>
 </header>

@@ -3,8 +3,6 @@
 
 	@media only screen and (min-width: 828px) {
 		display: flex;
-		flex-direction: row-reverse;
-		justify-content: flex-end;
 
 		&__bio {
 			box-sizing: border-box;

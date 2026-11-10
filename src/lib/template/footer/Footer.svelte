@@ -1,8 +1,7 @@
 <script>
+	import { t } from 'svelte-i18n';
 	import Logo from '$lib/atoms/Logo/Logo.svelte';
 	import Triangles from '$lib/atoms/triangles/triangles.svelte';
-
-	import iconMessage from '$lib/images/icon-message.png';
 
 	import './style.scss';
 
@@ -15,15 +14,13 @@
 		<Triangles />
 	</div>
 
-	<a href="/">
+	<a href="/" aria-label={$t('footer.home')}>
 		<Logo />
 	</a>
 
 	<div class="footer__email">
-		<a href="mailto:gui.farias@outlook.com.br">
-			<h2 class="title title--h2">
-				<img src={iconMessage} alt="" aria-hidden="true" /> gui.farias@outlook.com.br
-			</h2>
+		<a class="title title--h2" href="mailto:gui.farias@outlook.com.br">
+			gui.farias@outlook.com.br
 		</a>
 	</div>
 

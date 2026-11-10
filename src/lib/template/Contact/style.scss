@@ -3,14 +3,22 @@
 }
 
 .contact {
-	background-color: var(--color-light);
 	padding-block: 50px;
 	position: relative;
+	isolation: isolate;
 	overflow: hidden;
+
+	&::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: -1;
+		background: var(--contact-background);
+	}
 
 	.container > .title {
 		text-align: center;
-		text-shadow: 1.5px 1.5px var(--color-primary);
+		text-shadow: var(--theme-title-shadow);
 	}
 
 	&__social {
@@ -27,9 +35,9 @@
 	@media only screen and (min-width: 924px) {
 		padding-block: 100px 60px;
 
-		&-clip {
+		&-clip::before {
 			clip-path: polygon(
-				77.1% 22%,
+				77.1% 48px,
 				88.7% 0%,
 				100% 0%,
 				100% 100%,
@@ -37,7 +45,7 @@
 				0% 100%,
 				0% 0%,
 				58.9% 0%,
-				64.5% 13%
+				64.5% 28px
 			);
 		}
 
@@ -55,6 +63,7 @@
 			opacity: 0;
 			transition: all 0.8s;
 			z-index: 100;
+			pointer-events: none;
 
 			svg {
 				position: absolute;
@@ -63,6 +72,16 @@
 				transition: all 1.2s;
 			}
 		}
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.contact__cloud {
+		display: none;
+	}
+
+	.contact-clip::before {
+		clip-path: none;
 	}
 }
 

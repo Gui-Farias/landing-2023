@@ -4,6 +4,7 @@
 
 	export let secondary = false;
 	export let title = 'Hello World';
+	export let headingId: string | undefined = undefined;
 	export let h = 2;
 	export let text = 'lorem ipsum';
 	export let text2 = '';
@@ -17,21 +18,17 @@
 
 <div class="section-text section-text--{secondary ? 'secondary' : 'primary'}">
 	{#if h == 3}
-		<h3 class="title title--h3">{title}</h3>
+		<h3 id={headingId} class="title title--h3">{title}</h3>
 	{:else}
-		<h2 class="title title--h2">{title}</h2>
+		<h2 id={headingId} class="title title--h2">{title}</h2>
 	{/if}
-	<p class="paragraphy">
-		{text}
-		{#if text2}
-			<br /><br />
-			{text2}
-		{/if}
-		{#if text3}
-			<br /><br />
-			{text3}
-		{/if}
-	</p>
+	<p class="paragraphy">{text}</p>
+	{#if text2}
+		<p class="paragraphy">{text2}</p>
+	{/if}
+	{#if text3}
+		<p class="paragraphy">{text3}</p>
+	{/if}
 	{#if services.length}
 		<ul class="section-text__list">
 			{#each services as service}

@@ -1,56 +1,40 @@
 .form {
-	&-label {
-		display: block;
-		width: 100%;
-		position: relative;
-		margin-bottom: 30px;
+	&-field {
+		margin-block-end: 1.25rem;
+		text-align: start;
 	}
 
-	&-span {
-		transition: all 250ms;
-		position: absolute;
-		top: 0;
-		left: 26px;
-		transform: translateY(26px);
+	&-label {
+		display: block;
+		margin-block-end: 0.4rem;
+		font-weight: 600;
 	}
 
 	&-input {
-		background-color: var(--color-primary);
-		border: 3px solid transparent;
+		background-color: var(--field-background);
+		border: 3px solid var(--field-border);
 		border-top-left-radius: 50px;
 		border-bottom-right-radius: 50px;
 		box-sizing: border-box;
-		box-shadow: 3px 3px var(--color-secondary);
-		font-family: inherit;
-		font-size: inherit;
-		padding: 30px 10px 10px 26px;
-		height: 100%;
-		resize: none;
+		box-shadow: 3px 3px var(--field-shadow);
+		color: var(--color-text);
+		font: inherit;
+		padding: 0.75rem 1.25rem;
+		min-height: 44px;
 		width: 100%;
 
-		&:valid:not(:focus),
-		&[type='email']:not(:placeholder-shown):not(:focus) {
-			+ span {
-				left: 30px;
-				transform: translateY(10px);
-			}
-			&:invalid {
-				border: 5px solid #f00;
-			}
+		&[aria-invalid='true'] {
+			border-color: #891b25;
 		}
+	}
 
-		&:focus {
-			border: 3px solid var(--color-secondary);
-			transform: translateY(-4px);
-			scale: 1.01;
+	textarea.form-input {
+		resize: vertical;
+	}
 
-			+ span {
-				transform: translateY(4px);
-			}
-		}
-
-		&::placeholder {
-			color: transparent;
-		}
+	&-error {
+		margin-block: 0.5rem 0;
+		color: #891b25;
+		font-weight: 600;
 	}
 }

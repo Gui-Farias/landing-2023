@@ -1,11 +1,27 @@
 .social-menu {
-	@media only screen and (max-width: 768px) {
-		zoom: 0.7;
+	img {
+		display: block;
+		filter: var(--theme-icon-filter);
+	}
+
+	a {
+		display: inline-grid;
+		place-items: center;
+		min-width: 44px;
+		min-height: 44px;
 	}
 
 	&__list {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		gap: 15px;
+	}
+
+	@media (max-width: 768px) {
+		img {
+			width: 42px;
+			height: auto;
+		}
 	}
 }
