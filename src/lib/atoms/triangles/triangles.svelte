@@ -14,7 +14,7 @@
 	img {
 		opacity: 0.8;
 		transform-origin: center center;
-		animation: rotateTria 4s;
+		animation: rotateTria 4s infinite alternate;
 		animation-timing-function: cubic-bezier(0, 0.07, 0.3, 1.82);
 	}
 
