@@ -25,7 +25,7 @@
 	},
 	"btn": {
 		"cv": "Baixar CV",
-		"form": "Abrir no WhatsApp",
+		"form": "Enviar no WhatsApp",
 		"site": "Visitar o site de {project}"
 	},
 	"service": {
@@ -61,7 +61,6 @@
 	"form": {
 		"name": "Nome:",
 		"message": "Mensagem:",
-		"hint": "Os dois campos são obrigatórios. Você revisará a mensagem no WhatsApp antes de enviar.",
 		"fixErrors": "Confira os campos indicados.",
 		"nameRequired": "Informe seu nome.",
 		"messageRequired": "Escreva sua mensagem.",
@@ -75,8 +74,17 @@
 		"octa": {
 			"text": "Com o principal objetivo de dar espaço para novos artistas e contribuir para o crescimento de artistas independentes, Octa Estúdio foi criada e está pronta para te ajudar!"
 		},
-		"cord": {
-			"text": "Para quem busca alugar caminhões e maquinas para a sua obra, Gui Locações tem ótimos preços com diversos modelos e opções. - primeiro projeto testando o Svelte."
+		"myhub": {
+			"text": "MyHub é uma plataforma pessoal que reúne arquivos, notas, desenhos, diagramas, controle financeiro e investimentos em um só lugar. Hospedado no meu próprio servidor, tenho acesso por login e funciona pelo navegador ou como aplicativo PWA no iPhone, facilitando a organização e o acompanhamento da minha rotina."
+		},
+		"cidade": {
+			"text": "Cidade Dorme é um jogo multiplayer de dedução social, blefe e estratégia. Sem login crie uma sala e chame os amigos. Quem criar a sala assume o papel de narrador, enquanto os demais recebem personagens secretos."
+		},
+		"dreamix": {
+			"text": "Dreamix é um jogo de cartas online para 3 a 8 pessoas. A cada rodada, o narrador escolhe uma carta ilustrada e dá uma pista sobre ela. Os outros jogadores escolhem cartas que também combinam com a pista. Depois, as cartas são embaralhadas e todos, exceto o narrador, tentam adivinhar qual era a original."
+		},
+		"rodaroda": {
+			"text": "Roda da Galera é um jogo multiplayer de adivinhação de palavras e frases. Crie uma sala, define suas palavras, convide seus amigos e eles girem a roleta para descobrir quanto vale cada letra de seu palpite!"
 		}
 	},
 	"footer": {

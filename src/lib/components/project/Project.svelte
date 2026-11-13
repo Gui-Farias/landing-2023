@@ -7,7 +7,7 @@
 
 	export let title = '';
 	export let text = '';
-	export let btn = '';
+	export let btn = 'false';
 	export let link = '';
 	export let pc = '';
 	export let mobile = '';

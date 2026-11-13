@@ -25,7 +25,7 @@
 	},
 	"btn": {
 		"cv": "Download CV",
-		"form": "Open in WhatsApp",
+		"form": "Send on WhatsApp",
 		"site": "Visit the website for {project}"
 	},
 	"service": {
@@ -60,7 +60,6 @@
 	"form": {
 		"name": "Name:",
 		"message": "Message:",
-		"hint": "Both fields are required. You can review your message in WhatsApp before sending it.",
 		"fixErrors": "Check the highlighted fields.",
 		"nameRequired": "Enter your name.",
 		"messageRequired": "Enter your message.",
@@ -74,8 +73,17 @@
 		"octa": {
 			"text": "Created with the main goal of giving new artists space and supporting the growth of independent artists, Octa Estúdio is ready to help you."
 		},
-		"cord": {
-			"text": "For those looking to rent trucks and machinery for their construction projects, Gui Rentals offers excellent prices with various models and options. - The first project testing Svelte."
+		"myhub": {
+			"text": "MyHub is a personal platform that brings together files, notes, drawings, diagrams, financial control, and investments in one place. Hosted on my own server, I can access it through login and it works via the browser or as a PWA app on iPhone, making it easy to organize and track my routine."
+		},
+		"cidade": {
+			"text": "Cidade Dorme is a multiplayer social deduction, bluffing, and strategy game. Without login, create a room and invite your friends. The person who creates the room becomes the narrator, while the others receive secret characters."
+		},
+		"dreamix": {
+			"text": "Dreamix is an online card game for 3 to 8 players. In each round, the narrator chooses an illustrated card and gives a clue about it. The other players select cards that also match the clue. Then, the cards are shuffled, and everyone except the narrator tries to guess which one was the original."
+		},
+		"rodaroda": {
+			"text": "Roda da Galera is a multiplayer word and phrase guessing game. Create a room, set your words, invite your friends, and have them spin the wheel to find out how much each letter in their guess is worth!"
 		}
 	},
 	"footer": {
