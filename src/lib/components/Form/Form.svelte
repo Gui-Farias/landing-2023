@@ -53,7 +53,6 @@
 		on:submit={openWhatsApp}
 		on:input={clearValidation}
 	>
-		<p id="contact-form-hint">{$t('form.hint')}</p>
 		<p class="visually-hidden" role="status">
 			{errors.name || errors.message ? $t('form.fixErrors') : ''}
 		</p>
