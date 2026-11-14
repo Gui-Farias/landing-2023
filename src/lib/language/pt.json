@@ -26,29 +26,45 @@
 	"btn": {
 		"cv": "Baixar CV",
 		"form": "Enviar no WhatsApp",
-		"site": "Visitar o site de {project}"
+		"site": "Visitar o site de {project}",
+		"play": "Jogar {project}"
 	},
 	"service": {
 		"title": "Criação de sites e SEO técnico",
-		"text": "Desenvolvo sites responsivos, lojas virtuais e aplicações web sob medida para empresas e profissionais. Também melhoro sites existentes com SEO técnico, otimização de desempenho e ajustes de acessibilidade.",
+		"text": "Crio sites para empresas e profissionais, com foco em desempenho, acessibilidade e visibilidade nas buscas.",
 		"list": [
-			"Criação de sites institucionais e landing pages responsivas.",
-			"Desenvolvimento de lojas virtuais.",
-			"Desenvolvimento de sistemas personalizados.",
-			"Manutenção e atualização de sites existentes.",
-			"SEO técnico com revisão de títulos, metadados, rastreamento e indexação.",
-			"Criação de templates HTML para e-mail marketing.",
-			"Configuração e suporte de e-mail profissional com domínio próprio."
+			"Sites institucionais e landing pages responsivas",
+			"Lojas virtuais integradas a sistemas de pagamento e logística",
+			"sistemas personalizados para gestão do seu negócio",
+			"sistemas de estoque, vendas e controle do seu empreendimento",
+			"SEO técnico para rastreamento e indexação",
+			"Manutenção e atualização de sites",
+			"Templates HTML para e-mail marketing",
+			"E-mail profissional com domínio próprio"
 		]
 	},
 	"skill": {
-		"lang": "Linguagens",
-		"frame": "Frameworks",
-		"tools": "Ferramentas",
+		"title": "Habilidades técnicas",
+		"categories": "Categorias de habilidades",
+		"lang": {
+			"name": "Linguagens",
+			"short": "Linguagens",
+			"description": "Estrutura, estilo e lógica para a web."
+		},
+		"frame": {
+			"name": "Frameworks e Bibliotecas",
+			"short": "Frameworks",
+			"description": "Interfaces, estilos e visualização de dados."
+		},
+		"tools": {
+			"name": "Ferramentas e Plataformas",
+			"short": "Ferramentas",
+			"description": "Versionamento, design e produção de conteúdo."
+		},
 		"ai": "IA"
 	},
 	"work": {
-		"title": "Meus trabalhos"
+		"title": "Projetos de desenvolvimento web"
 	},
 	"contact": {
 		"title": "Contato",
@@ -67,24 +83,24 @@
 		"whatsappText": "Olá, Gui! Meu nome é {name}.\n\n{message}"
 	},
 	"proj": {
-		"preview": "Prévia do site de {project}",
+		"preview": "Interface de {project} em desktop",
 		"void": {
-			"text": "Desenvolvi o layout e o codigo do site, uma agencia de marketing digital onde mostro os serviços e projetos que eu já desenvolvi sendo freelancer."
+			"text": "Design e desenvolvimento do site da agência, com portfólio de projetos e serviços de marketing digital."
 		},
 		"octa": {
-			"text": "Com o principal objetivo de dar espaço para novos artistas e contribuir para o crescimento de artistas independentes, Octa Estúdio foi criada e está pronta para te ajudar!"
+			"text": "Site institucional de um estúdio voltado a artistas independentes."
 		},
 		"myhub": {
-			"text": "MyHub é uma plataforma pessoal que reúne arquivos, notas, desenhos, diagramas, controle financeiro e investimentos em um só lugar. Hospedado no meu próprio servidor, tenho acesso por login e funciona pelo navegador ou como aplicativo PWA no iPhone, facilitando a organização e o acompanhamento da minha rotina."
+			"text": "Aplicação web instalável (PWA) para organizar arquivos, notas, diagramas e finanças pessoais."
 		},
 		"cidade": {
-			"text": "Cidade Dorme é um jogo multiplayer de dedução social, blefe e estratégia. Sem login crie uma sala e chame os amigos. Quem criar a sala assume o papel de narrador, enquanto os demais recebem personagens secretos."
+			"text": "Jogo online de dedução social com personagens secretos. Crie uma sala e jogue com amigos sem cadastro."
 		},
 		"dreamix": {
-			"text": "Dreamix é um jogo de cartas online para 3 a 8 pessoas. A cada rodada, o narrador escolhe uma carta ilustrada e dá uma pista sobre ela. Os outros jogadores escolhem cartas que também combinam com a pista. Depois, as cartas são embaralhadas e todos, exceto o narrador, tentam adivinhar qual era a original."
+			"text": "Jogo de cartas ilustradas para 3 a 8 pessoas. Use a pista do narrador para descobrir a carta original."
 		},
 		"rodaroda": {
-			"text": "Roda da Galera é um jogo multiplayer de adivinhação de palavras e frases. Crie uma sala, define suas palavras, convide seus amigos e eles girem a roleta para descobrir quanto vale cada letra de seu palpite!"
+			"text": "Jogo multiplayer de palavras e frases. Gire a roleta e acerte letras para somar pontos."
 		}
 	},
 	"footer": {

@@ -15,7 +15,5 @@
 	aria-labelledby="services-heading"
 	tabindex="-1"
 >
-	<div class="servics__text">
-		<SectionText {title} headingId="services-heading" {text} {list} />
-	</div>
+	<SectionText {title} headingId="services-heading" {text} {list} />
 </section>

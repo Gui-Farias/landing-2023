@@ -1,0 +1,5 @@
+@mixin motion {
+	transform: translateY(-10px);
+	transition: all 0.3s;
+	scale: 1.05;
+}

@@ -26,28 +26,44 @@
 	"btn": {
 		"cv": "Download CV",
 		"form": "Send on WhatsApp",
-		"site": "Visit the website for {project}"
+		"site": "Visit the website for {project}",
+		"play": "Play {project}"
 	},
 	"service": {
 		"title": "Website Development and Technical SEO",
-		"text": "I build responsive websites, online stores, and custom web applications for businesses and professionals. I also improve existing sites through technical SEO, performance optimization, and accessibility improvements.",
+		"text": "I build websites for businesses and professionals, with a focus on performance, accessibility, and search visibility.",
 		"list": [
-			"Responsive business websites and landing pages.",
-			"Online stores and custom web application development.",
-			"Maintenance and updates for existing websites.",
-			"Technical SEO covering page titles, metadata, crawling, and indexing.",
-			"HTML templates for email marketing.",
-			"Business email setup and support with a custom domain."
+			"Responsive business websites and landing pages",
+			"Online stores integrated with payment and logistics systems",
+			"Custom inventory, sales, and business control systems",
+			"Technical SEO for crawling and indexing",
+			"Website maintenance and updates",
+			"HTML templates for email marketing",
+			"Business email with a custom domain"
 		]
 	},
 	"skill": {
-		"lang": "Programming languages",
-		"frame": "Frameworks",
-		"tools": "Tools",
+		"title": "Technical skills",
+		"categories": "Skill categories",
+		"lang": {
+			"name": "Languages",
+			"short": "Languages",
+			"description": "Structure, styling and logic for the web."
+		},
+		"frame": {
+			"name": "Frameworks and Libraries",
+			"short": "Frameworks",
+			"description": "Interfaces, styling and data visualization."
+		},
+		"tools": {
+			"name": "Tools and Platforms",
+			"short": "Tools",
+			"description": "Version control, design and content creation."
+		},
 		"ai": "AI"
 	},
 	"work": {
-		"title": "My Works"
+		"title": "Web Development Projects"
 	},
 	"contact": {
 		"title": "Contact",
@@ -66,24 +82,24 @@
 		"whatsappText": "Hi, Gui! My name is {name}.\n\n{message}"
 	},
 	"proj": {
-		"preview": "Preview of the website for {project}",
+		"preview": "Desktop interface of {project}",
 		"void": {
-			"text": "I developed the layout and code for the website, a digital marketing agency where I showcase the services and projects that I have developed as a freelancer."
+			"text": "Website design and development for a digital marketing agency, showcasing its services and portfolio."
 		},
 		"octa": {
-			"text": "Created with the main goal of giving new artists space and supporting the growth of independent artists, Octa Estúdio is ready to help you."
+			"text": "Business website for a studio that supports independent artists."
 		},
 		"myhub": {
-			"text": "MyHub is a personal platform that brings together files, notes, drawings, diagrams, financial control, and investments in one place. Hosted on my own server, I can access it through login and it works via the browser or as a PWA app on iPhone, making it easy to organize and track my routine."
+			"text": "An installable web app (PWA) for organizing files, notes, diagrams, and personal finances."
 		},
 		"cidade": {
-			"text": "Cidade Dorme is a multiplayer social deduction, bluffing, and strategy game. Without login, create a room and invite your friends. The person who creates the room becomes the narrator, while the others receive secret characters."
+			"text": "An online social deduction game with secret roles. Create a room and play with friends without signing up."
 		},
 		"dreamix": {
-			"text": "Dreamix is an online card game for 3 to 8 players. In each round, the narrator chooses an illustrated card and gives a clue about it. The other players select cards that also match the clue. Then, the cards are shuffled, and everyone except the narrator tries to guess which one was the original."
+			"text": "An illustrated card game for 3 to 8 players. Use the storyteller's clue to guess the original card."
 		},
 		"rodaroda": {
-			"text": "Roda da Galera is a multiplayer word and phrase guessing game. Create a room, set your words, invite your friends, and have them spin the wheel to find out how much each letter in their guess is worth!"
+			"text": "A multiplayer word and phrase guessing game. Spin the wheel and guess letters to score points."
 		}
 	},
 	"footer": {

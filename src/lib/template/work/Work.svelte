@@ -14,7 +14,7 @@
 
 	import pcCidade from '$lib/images/proj/pc-cidade.webp';
 	import mobileCidade from '$lib/images/proj/mobile-cidade.webp';
-	
+
 	import pcDreamix from '$lib/images/proj/pc-dreamix.webp';
 	import mobileDreamix from '$lib/images/proj/mobile-dreamix.webp';
 
@@ -38,7 +38,7 @@
 	const titleDreamix = 'Dreamix';
 	const linkDreamix = 'https://dreamix.jogaejoga.com.br';
 
-	const titleRodaroda = 'Rodaroda';
+	const titleRodaroda = 'Roda da Galera';
 	const linkRodaroda = 'https://rodaroda.jogaejoga.com.br';
 </script>
 
@@ -50,49 +50,49 @@
 		text={$t('proj.octa.text')}
 		btn={$t('btn.site', { values: { project: titleOcta } })}
 		link={linkOcta}
-		pc={pcOcta}
-		mobile={mobileOcta}
+		pc={{ src: pcOcta, width: 640, height: 545 }}
+		mobile={{ src: mobileOcta, width: 364, height: 752 }}
 	/>
 	<Project
 		title={titleVoid}
 		text={$t('proj.void.text')}
 		btn={$t('btn.site', { values: { project: titleVoid } })}
 		link={linkVoid}
-		pc={pcVoid}
-		mobile={mobileVoid}
+		pc={{ src: pcVoid, width: 600, height: 517 }}
+		mobile={{ src: mobileVoid, width: 300, height: 623 }}
 		invert
 	/>
 	<Project
 		title={titleMyhub}
 		text={$t('proj.myhub.text')}
 		link={linkMyhub}
-		pc={pcMyhub}
-		mobile={mobileMyhub}
+		pc={{ src: pcMyhub, width: 600, height: 516 }}
+		mobile={{ src: mobileMyhub, width: 364, height: 755 }}
 	/>
 	<Project
 		title={titleCidade}
 		text={$t('proj.cidade.text')}
-		btn={$t('btn.site', { values: { project: titleCidade } })}
+		btn={$t('btn.play', { values: { project: titleCidade } })}
 		link={linkCidade}
-		pc={pcCidade}
-		mobile={mobileCidade}
+		pc={{ src: pcCidade, width: 600, height: 507 }}
+		mobile={{ src: mobileCidade, width: 364, height: 754 }}
 		invert
 	/>
 	<Project
 		title={titleDreamix}
 		text={$t('proj.dreamix.text')}
-		btn={$t('btn.site', { values: { project: titleDreamix } })}
+		btn={$t('btn.play', { values: { project: titleDreamix } })}
 		link={linkDreamix}
-		pc={pcDreamix}
-		mobile={mobileDreamix}
+		pc={{ src: pcDreamix, width: 600, height: 516 }}
+		mobile={{ src: mobileDreamix, width: 364, height: 755 }}
 	/>
 	<Project
 		title={titleRodaroda}
 		text={$t('proj.rodaroda.text')}
-		btn={$t('btn.site', { values: { project: titleRodaroda } })}
+		btn={$t('btn.play', { values: { project: titleRodaroda } })}
 		link={linkRodaroda}
-		pc={pcRodaroda}
-		mobile={mobileRodaroda}
+		pc={{ src: pcRodaroda, width: 600, height: 516 }}
+		mobile={{ src: mobileRodaroda, width: 364, height: 755 }}
 		invert
 	/>
 </section>

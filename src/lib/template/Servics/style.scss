@@ -1,7 +1,19 @@
 .servics {
-	@media only screen and (min-width: 828px) {
-		&__text {
-			max-width: 50%;
+	.section-text__list {
+		display: grid;
+		gap: 0.75rem;
+		margin-inline-start: 1.25em;
+	}
+
+	.section-text__item {
+		list-style: disc;
+
+		&::marker {
+			color: var(--theme-accent);
+		}
+
+		span {
+			position: static;
 		}
 	}
 }
