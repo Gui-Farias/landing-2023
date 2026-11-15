@@ -25,7 +25,7 @@
 			(entries) => {
 				if (!entries.some((entry) => entry.isIntersecting)) return;
 				cloud.classList.add('cloud-show');
-				clipTimer = window.setTimeout(() => contact.classList.add('contact-clip'), 1400);
+				clipTimer = window.setTimeout(() => contact.classList.add('contact-clip'), 800);
 				observer.disconnect();
 			},
 			{ threshold: 0.3 }

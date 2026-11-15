@@ -167,6 +167,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	width: 100%;
+	-webkit-font-smoothing: antialiased;
 }
 
 ::selection {

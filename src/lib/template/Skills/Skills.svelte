@@ -33,6 +33,7 @@
 					aria-expanded={selected?.id === category.id}
 					aria-controls="skills-panel-{category.id}"
 					on:click={() => toggleCategory(category)}
+					class="btn btn-primary"
 				>
 					{$t('skill.' + category.id + '.name')}
 				</button>

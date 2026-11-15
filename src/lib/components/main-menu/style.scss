@@ -23,13 +23,15 @@
 	}
 
 	&__item {
-		color: var(--theme-accent);
-		text-shadow: var(--theme-accent-shadow);
+		color: var(--theme-text);
+		text-shadow: var(--theme-title-shadow);
 		cursor: pointer;
 		font-size: 24px;
 
 		&:hover {
-			color: var(--theme-accent-hover);
+			scale: 1.2;
+			transform: translateY(-2px);
+			transition: all 0.3s ease-in-out;
 		}
 	}
 

@@ -22,17 +22,10 @@
 			max-inline-size: 100%;
 			padding: 0.5rem 1rem;
 			border: 1px solid var(--theme-accent);
-			border-radius: 999px;
-			background: var(--theme-surface);
 			color: var(--theme-text);
-			font-weight: 600;
+			font-weight: 400;
 			overflow-wrap: anywhere;
 			cursor: pointer;
-
-			&[aria-expanded='true'] {
-				background: var(--theme-accent);
-				color: var(--theme-surface);
-			}
 
 			&:focus-visible {
 				outline: 2px solid var(--theme-text);

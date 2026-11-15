@@ -18,9 +18,9 @@
 
 <div class="section-text section-text--{secondary ? 'secondary' : 'primary'}">
 	{#if h == 3}
-		<h3 id={headingId} class="title title--h3">{title}</h3>
+		<h3 id={headingId} class="orange title title--h3">{title}</h3>
 	{:else}
-		<h2 id={headingId} class="title title--h2">{title}</h2>
+		<h2 id={headingId} class="white title title--h2">{title}</h2>
 	{/if}
 	<p class="paragraphy">{text}</p>
 	{#if text2}

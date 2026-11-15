@@ -35,8 +35,8 @@
 		"list": [
 			"Sites institucionais e landing pages responsivas",
 			"Lojas virtuais integradas a sistemas de pagamento e logística",
-			"sistemas personalizados para gestão do seu negócio",
-			"sistemas de estoque, vendas e controle do seu empreendimento",
+			"Sistemas personalizados para gestão do seu negócio",
+			"Sistemas de estoque, vendas e controle do seu empreendimento",
 			"SEO técnico para rastreamento e indexação",
 			"Manutenção e atualização de sites",
 			"Templates HTML para e-mail marketing",
@@ -64,7 +64,7 @@
 		"ai": "IA"
 	},
 	"work": {
-		"title": "Projetos de desenvolvimento web"
+		"title": "Projetos personalizados"
 	},
 	"contact": {
 		"title": "Contato",
@@ -88,19 +88,19 @@
 			"text": "Design e desenvolvimento do site da agência, com portfólio de projetos e serviços de marketing digital."
 		},
 		"octa": {
-			"text": "Site institucional de um estúdio voltado a artistas independentes."
+			"text": "Site de divulgação para Octa Estudio um estúdio de musica voltado a artistas independentes."
 		},
 		"myhub": {
-			"text": "Aplicação web instalável (PWA) para organizar arquivos, notas, diagramas e finanças pessoais."
+			"text": "Aplicação web (PWA) pessoal para organizar arquivos, notas, diagramas, mapa mental e finanças pessoais."
 		},
 		"cidade": {
-			"text": "Jogo online de dedução social com personagens secretos. Crie uma sala e jogue com amigos sem cadastro."
+			"text": "Jogo online de dedução social com personagens secretos. Um cria a sala e chama os amigos, todos recebem um papel aleatorio e precisam sobreviver na cidade."
 		},
 		"dreamix": {
-			"text": "Jogo de cartas ilustradas para 3 a 8 pessoas. Use a pista do narrador para descobrir a carta original."
+			"text": "Jogo de cartas ilustradas online. O narrador da uma pista e escolhe sua carta, todos os outros escolhem uma carta e precisam descobrir qual a do narrador."
 		},
 		"rodaroda": {
-			"text": "Jogo multiplayer de palavras e frases. Gire a roleta e acerte letras para somar pontos."
+			"text": "Roda a roda para descobrir o valor de cada letra e de o seu palpite para descubrir a palavra."
 		}
 	},
 	"footer": {

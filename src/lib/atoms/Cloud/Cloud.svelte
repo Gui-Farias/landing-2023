@@ -107,7 +107,7 @@
 
 <style>
 	#cloud-lights {
-		transition-delay: 1s;
+		transition-delay: 0.8s;
 		opacity: 0;
 	}
 	@media only screen and (max-width: 924px) {

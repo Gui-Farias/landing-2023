@@ -165,7 +165,7 @@
 			effect.paintTitle();
 			effect.convertToParticles();
 			canvasReady = true;
-			schedule(1400);
+			schedule(2400);
 		}
 
 		function moveParticles(event: PointerEvent) {
@@ -179,7 +179,7 @@
 				}
 			}
 			effect.handleMouseMove(event);
-			schedule(550);
+			schedule(900);
 		}
 
 		syncCanvas();

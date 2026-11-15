@@ -1,9 +1,5 @@
 .section-text {
 	&--primary {
-		.title {
-			color: var(--theme-accent);
-			text-shadow: var(--theme-accent-shadow);
-		}
 		.paragraphy,
 		.section-text__list {
 			color: var(--theme-text);
