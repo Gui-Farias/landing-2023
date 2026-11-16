@@ -9,23 +9,32 @@
 	import './style.scss';
 
 	let interactive = false;
+	let compact = false;
 	let hasInteracted = false;
-	let selected: SkillCategory | null = null;
+	let chosenCategory: SkillCategory | null = null;
+
+	$: selected = compact && !hasInteracted ? categories[0] : chosenCategory;
 
 	function toggleCategory(category: SkillCategory) {
+		chosenCategory = selected?.id === category.id ? null : category;
 		hasInteracted = true;
-		selected = selected?.id === category.id ? null : category;
 	}
 
 	onMount(() => {
+		const compactViewport = matchMedia('(width < 828px)');
+		const updateCompact = () => (compact = compactViewport.matches);
+
+		updateCompact();
 		interactive = true;
+		compactViewport.addEventListener('change', updateCompact);
+		return () => compactViewport.removeEventListener('change', updateCompact);
 	});
 </script>
 
 <section class="skills" aria-labelledby="skills-heading">
 	<h2 id="skills-heading" class="title title--h2 white">{$t('skill.title')}</h2>
 
-	{#if interactive}
+	{#if interactive && !compact}
 		<div class="skills__categories" role="group" aria-label={$t('skill.categories')}>
 			{#each categories as category (category.id)}
 				<button
@@ -49,7 +58,7 @@
 	>
 		{#if interactive}
 			<div class="skills__wheel">
-				<SkillsCircle {categories} {selected} onSelect={toggleCategory} />
+				<SkillsCircle {categories} {selected} {compact} onSelect={toggleCategory} />
 			</div>
 		{/if}
 

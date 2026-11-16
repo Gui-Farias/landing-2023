@@ -22,7 +22,7 @@
 			max-inline-size: 100%;
 			padding: 0.5rem 1rem;
 			border: 1px solid var(--theme-accent);
-			color: var(--theme-text);
+			color: white;
 			font-weight: 400;
 			overflow-wrap: anywhere;
 			cursor: pointer;
@@ -257,14 +257,24 @@
 		stroke-dasharray: 5 3;
 		opacity: 1;
 	}
+}
 
-	@media (hover: hover) {
-		.skills-wheel__button[data-category='#{$category}']:hover
-			~ svg
-			[data-category='#{$category}']:not(.skills-wheel__arc--selected)
-			.skills-wheel__arc {
-			stroke-width: 44;
-		}
+@media (any-hover: hover) and (forced-colors: none) {
+	.skills-wheel__blurred {
+		filter: blur(2px);
+	}
+
+	.skills-wheel__button--preview .skills-wheel__icon {
+		color: var(--theme-surface);
+	}
+
+	.skills-wheel__arc--preview .skills-wheel__arc {
+		stroke: var(--theme-accent);
+		stroke-width: 44;
+	}
+
+	.skills-wheel__arc--preview text {
+		fill: var(--theme-text);
 	}
 }
 

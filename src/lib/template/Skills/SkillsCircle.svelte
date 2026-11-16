@@ -5,6 +5,7 @@
 
 	export let categories: SkillCategory[];
 	export let selected: SkillCategory | null;
+	export let compact: boolean;
 	export let onSelect: (category: SkillCategory) => void;
 
 	const size = 368;
@@ -14,6 +15,15 @@
 	const radius = (innerRadius + outerRadius) / 2;
 	const labelRadius = 172;
 	const gap = 7;
+
+	let previewed: SkillCategory['id'] | null = null;
+
+	// Wait for pointer movement so sliding the wheel after a click cannot restart the preview.
+	function previewArc(event: PointerEvent, category: SkillCategory) {
+		if (event.pointerType === 'mouse') {
+			previewed = category.id === selected?.id ? null : category.id;
+		}
+	}
 
 	function point(angle: number, distance: number) {
 		const radians = (angle * Math.PI) / 180;
@@ -31,7 +41,10 @@
 		return `M ${first.join(' ')} A ${distance} ${distance} 0 ${largeArc} ${sweep} ${last.join(' ')}`;
 	}
 
-	$: featured = selected ?? categories[0];
+	$: featured =
+		categories.find((category) => category.id === previewed) ??
+		selected ??
+		(compact ? categories[0] : null);
 	$: total = categories.reduce((sum, category) => sum + category.skills.length, 0);
 	$: availableAngle = 360 - gap * categories.length;
 	$: arcs = categories.map((category, index) => {
@@ -80,13 +93,20 @@
 		<button
 			type="button"
 			class="skills-wheel__button"
+			class:skills-wheel__button--preview={previewed === category.id}
+			class:skills-wheel__blurred={previewed !== null && previewed !== category.id}
 			data-category={category.id}
 			style:clip-path={clip}
-			tabindex="-1"
+			tabindex={compact ? undefined : -1}
 			aria-label={$t('skill.' + category.id + '.name')}
 			aria-expanded={category.id === selected?.id}
 			aria-controls="skills-panel-{category.id}"
-			on:click={() => onSelect(category)}
+			on:pointermove={(event) => previewArc(event, category)}
+			on:pointerleave={() => (previewed = null)}
+			on:click={() => {
+				previewed = null;
+				onSelect(category);
+			}}
 		>
 			<span
 				class="skills-wheel__icon skills-wheel__icon--compact skills-icon {category.icon}"
@@ -110,6 +130,8 @@
 			<g
 				data-category={category.id}
 				class:skills-wheel__arc--selected={category.id === selected?.id}
+				class:skills-wheel__arc--preview={previewed === category.id}
+				class:skills-wheel__blurred={previewed !== null && previewed !== category.id}
 			>
 				<path class="skills-wheel__arc" d={path} />
 				<path id="skills-arc-{category.id}" d={labelPath} fill="none" />
